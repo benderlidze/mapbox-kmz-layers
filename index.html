@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Extrude polygons for 3D indoor mapping</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/togeojson/0.16.0/togeojson.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.0/jszip.min.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .mapboxgl-popup {
+            max-width: 400px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script>
+
+        mapboxgl.accessToken = 'pk.eyJ1Ijoic2VyaHV6IiwiYSI6ImNseXpvc3RlczJpbnIya3FscDU2aHc5d3EifQ.FHtPjde_lqensSHZxqthgw';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+            style: 'mapbox://styles/mapbox/light-v11',
+            center: { lng: -84.41437509399084, lat: 33.78968701476805 },
+            zoom: 9,
+        });
+
+        map.on('load', () => {
+
+            fetch('1-Development Map.kmz')
+                .then(response => response.blob())
+                .then(blob => {
+                    const zip = new JSZip();
+                    zip.loadAsync(blob).then(function (zip) {
+                        zip.file("doc.kml").async("string").then(function (data) {
+                            const kml = new DOMParser().parseFromString(data, "text/xml");
+                            const geojson = toGeoJSON.kml(kml);
+                            console.log(geojson);
+                            map.getSource('geometry').setData(geojson);
+                        });
+                    });
+                })
+
+            // Create GeoJSON data for a building with 10 floors
+            map.addSource('geometry', {
+                'type': 'geojson',
+                'data': {
+                    'type': 'FeatureCollection',
+                    'features': []
+                }
+            });
+
+            map.addLayer({
+                id: 'polygons',
+                type: 'fill',
+                source: 'geometry',
+                paint: {
+                    'fill-color': ['get', 'fill'],
+                    'fill-opacity': 0.5
+                },
+                filter: ['==', '$type', 'Polygon']
+            });
+
+            map.addLayer({
+                id: 'lines',
+                type: 'line',
+                source: 'geometry',
+                paint: {
+                    'line-color': ['get', 'stroke'],
+                    'line-width': ['get', 'stroke-width']
+                },
+                filter: ['==', '$type', 'LineString']
+            })
+
+            map.addLayer({
+                id: 'points',
+                type: 'circle',
+                source: 'geometry',
+                paint: {
+                    'circle-color': "white",
+                    'circle-radius': 10,
+                    'circle-stroke-width': 1,
+                    'circle-stroke-color': "gray"
+
+                },
+                filter: ['==', '$type', 'Point']
+            });
+
+
+            map.loadImage(
+                'tram.png',
+                (error, image) => {
+                    if (error) throw error;
+
+                    // Add the image to the map style.
+                    map.addImage('tram', image);
+                    map.addLayer({
+                        id: 'tram-icon',
+                        type: 'symbol',
+                        source: 'geometry',
+                        layout: {
+                            'icon-image': 'tram',
+                            'icon-size': 1,
+                            'icon-allow-overlap': true
+                        },
+                        filter: ['==', '$type', 'Point']
+
+                    });
+
+                }
+            );
+
+
+
+
+            function pointerCursor() {
+                map.getCanvas().style.cursor = 'pointer';
+            }
+
+            function defaultCursor() {
+                map.getCanvas().style.cursor = '';
+            }
+
+            map.on('mouseenter', 'polygons', pointerCursor);
+            map.on('mouseleave', 'polygons', defaultCursor);
+            map.on('mouseenter', 'points', pointerCursor);
+            map.on('mouseleave', 'points', defaultCursor);
+
+
+
+
+
+            //create a popup with all properties for all layers on click
+            map.on('click', function (e) {
+                const features = map.queryRenderedFeatures(e.point);
+                console.log('features', features);
+                const html = features.map(feature => {
+                    return `<h3>${feature.properties.name}</h3>
+                    <div>${feature.properties.description}</div>`
+                }).join('');
+                const popup = new mapboxgl.Popup()
+                    .setLngLat(e.lngLat)
+                    .setHTML(html)
+                    .addTo(map);
+            });
+
+
+        });
+    </script>
+
+</body>
+
+</html>
