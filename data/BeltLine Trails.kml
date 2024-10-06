@@ -1,0 +1,4673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="Atlanta BeltLine Trails" >
+	<name>BeltLine Trails</name>
+	<snippet></snippet>
+	<Style id="LineStyle00">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00c042</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="LineStyle01">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="LineStyle010">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="LineStyle011">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="LineStyle0110">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00c042</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="LineStyle01100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#LineStyle0110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#LineStyle0112</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="LineStyle0111">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0098e6</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="LineStyle0112">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00c042</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="LineStyle0113">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#LineStyle019</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#LineStyle0114</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="LineStyle0114">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="LineStyle012">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#LineStyle017</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#LineStyle011</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="LineStyle013">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="LineStyle014">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffe600a9</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="LineStyle0140">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="LineStyle0141">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="LineStyle0142">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#LineStyle0141</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#LineStyle0140</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="LineStyle015">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="LineStyle016">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#LineStyle013</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#LineStyle015</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="LineStyle017">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="LineStyle018">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#LineStyle01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#LineStyle010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="LineStyle019">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Folder id="FeatureLayer0">
+		<name>Atlanta BeltLine Trails</name>
+		<snippet></snippet>
+		<Placemark id="ID_00000">
+			<name>Northside Trail</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Northside Trail</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Northside Trail</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Completed</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>PATH Foundation</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>5630</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>1.066334</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>1.1</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td>2010</td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>5630.241278</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>5630.241278</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle00</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.39751512199996,33.81338829900005,0 -84.39751913299995,33.81338929800006,0 -84.39752329099997,33.81338970800005,0 -84.39752747199998,33.81338951700008,0 -84.39753154999994,33.81338873000004,0 -84.39753540699996,33.81338737100003,0 -84.39753892799996,33.81338548100007,0 -84.39754200799996,33.81338311300004,0 -84.39754455599996,33.81338034100003,0 -84.39754649599996,33.81337724400004,0 -84.39754777199994,33.81337391700004,0 -84.39754834599995,33.81337045500004,0 -84.39754819899997,33.81336696200003,0 -84.39754490599995,33.81331666100004,0 -84.39754964099996,33.81326644000006,0 -84.39756231599995,33.81321718900006,0 -84.39758271099998,33.81316977600005,0 -84.39761046299998,33.81312504200002,0 -84.39764508099995,33.81308377800008,0 -84.39768595199996,33.81304671400005,0 -84.39773235499996,33.81301450400008,0 -84.39778346899999,33.81298772000002,0 -84.39783838799997,33.81296683500005,0 -84.39789614199998,33.81295221800008,0 -84.39795570899997,33.81294412800003,0 -84.39801603499996,33.81294270700005,0 -84.39933386899997,33.81298490700004,0 -84.39941271099997,33.81299150900003,0 -84.39949194599996,33.81299207100005,0 -84.39957091099996,33.81298658700007,0 -84.39962202499999,33.81298381900007,0 -84.39967314299997,33.81298651900005,0 -84.39972343099998,33.81299464300002,0 -84.39977206599997,33.81300805700005,0 -84.39981825199999,33.81302654200005,0 -84.39984308799995,33.81303642100005,0 -84.39986927299998,33.81304346600007,0 -84.39995434999997,33.81306401200004,0 -84.40003742299996,33.81308964400006,0 -84.40011805399996,33.81312023000004,0 -84.40019582099995,33.81315560700006,0 -84.40023698299996,33.81317297500004,0 -84.40028056299997,33.81318558300006,0 -84.40032577099998,33.81319320300003,0 -84.40037179699993,33.81319569800007,0 -84.40045335299999,33.81319341500006,0 -84.40050229699995,33.81318783700004,0 -84.40054980199994,33.81317652900003,0 -84.40059491099998,33.81315972200008,0 -84.40063671299998,33.81313775200005,0 -84.40079701899998,33.81303958100006,0 -84.40096682499995,33.81295243900007,0 -84.40100873999995,33.81292839900004,0 -84.40105465699997,33.81291015200003,0 -84.40110343799995,33.81289815000002,0 -84.40116813499998,33.81288757000004,0 -84.40141336999994,33.81285050300005,0 -84.40177030199999,33.81281060900005,0 -84.40182453899996,33.81280168500007,0 -84.40187688099996,33.81278684500006,0 -84.40192640899994,33.81276635100005,0 -84.40197224999997,33.81274056100006,0 -84.40201359499997,33.81270993200008,0 -84.40204971699995,33.81267500300004,0 -84.40206970899999,33.81262792900003,0 -84.40208457999995,33.81257955200005,0 -84.40209421199995,33.81253026000007,0 -84.40210106899997,33.81247238400005,0 -84.40210537699994,33.81241433700006,0 -84.40210967099995,33.81237756700006,0 -84.40211865499998,33.81234139300005,0 -84.40213222499995,33.81230622800007,0 -84.40214725399994,33.81227908200003,0 -84.40216653299996,33.81225387600006,0 -84.40225915899998,33.81214912700005,0 -84.40237365999997,33.81202690800006,0 -84.40239256099994,33.81198144200005,0 -84.40240451299996,33.81193436200004,0 -84.40240932999995,33.81188640600004,0 -84.40240693699997,33.81183832300007,0 -84.40239737299999,33.81179086500003,0 -84.40238078399994,33.81174477400003,0 -84.40235743199997,33.81170077400003,0 -84.40232768299995,33.81165955100005,0 -84.40229200099998,33.81162175000003,0 -84.40225094499993,33.81158796500006,0 -84.40221462799997,33.81157300300003,0 -84.40217949299995,33.81155618800005,0 -84.40209734499996,33.81151667600005,0 -84.40201259999998,33.81148119200003,0 -84.40195795099999,33.81145711400006,0 -84.40190642799996,33.81142863200006,0 -84.40183244099995,33.81137924400008,0 -84.40176341599994,33.81132508100006,0 -84.40167534299997,33.81125533600004,0 -84.40158157899998,33.81119096800006,0 -84.40146322399994,33.81111226900003,0 -84.40134869499997,33.81102971900003,0 -84.40134020199997,33.81102218600006,0 -84.40133332899995,33.81101357700004,0 -84.40132827099995,33.81100413300004,0 -84.40132516599994,33.81099411800005,0 -84.40132410199999,33.81098381200007,0 -84.40132397699995,33.81093785700006,0 -84.40138451799999,33.81089671200004,0 -84.40143996099994,33.81085083300007,0 -84.40147245799994,33.81082519800003,0 -84.40150906599996,33.81080377200004,0 -84.40154901199998,33.81078700400008,0 -84.40159144799998,33.81077525200004,0 -84.40163547799995,33.81076876300006,0 -84.40181894299997,33.81075309600004,0 -84.40202280199998,33.81073909100007,0 -84.40222868099994,33.81071827300008,0 -84.40228274899994,33.81071697200008,0 -84.40233608299997,33.81070944700008,0 -84.40238765999999,33.81069584300008,0 -84.40242352299998,33.81068101900007,0 -84.40245589399996,33.81066137700003,0 -84.40248385099994,33.81063747500008,0 -84.40250660099997,33.81060999200002,0 -84.40252349599996,33.81057970900002,0 -84.40253405799996,33.81054748800005,0 -84.40254369199994,33.81051687900003,0 -84.40255864399995,33.81048779700006,0 -84.40257858599995,33.81046088000005,0 -84.40260307899996,33.81043672400006,0 -84.40262138899999,33.81042336100006,0 -84.40264190599999,33.81041246000007,0 -84.40266415899998,33.81040426800007,0 -84.40282103199996,33.81035801400003,0 -84.40302071399998,33.81030827300003,0 -84.40306636399998,33.81029234300007,0 -84.40311443499996,33.81028256300004,0 -84.40313027099995,33.81027931800003,0 -84.40314528399995,33.81027400700003,0 -84.40315909099996,33.81026676600004,0 -84.40317133799994,33.81025777900004,0 -84.40318170999996,33.81024727800008,0 -84.40318994499995,33.81023553000006,0 -84.40319582999996,33.81022283600004,0 -84.40323224899998,33.81012064500004,0 -84.40329481899994,33.80988904900005,0 -84.40327748599998,33.80983019100006,0 -84.40325416399997,33.80977279300004,0 -84.40322502199996,33.80971727800005,0 -84.40310415899995,33.80951156500004,0 -84.40294642599997,33.80924465000004,0 -84.40281330699997,33.80903044900003,0 -84.40278794499994,33.80899632900002,0 -84.40276990799998,33.80895910400005,0 -84.40275972099994,33.80891985900007,0 -84.40275768199996,33.80887974100006,0 -84.40276384899994,33.80883991800005,0 -84.40276836499999,33.80881041100002,0 -84.40276669499997,33.80878069700003,0 -84.40275888799994,33.80875167300007,0 -84.40274518099994,33.80872421500004,0 -84.40266531299994,33.80859671700006,0 -84.40240495699999,33.80808150000007,0 -84.40223477199999,33.80773291100007,0 -84.40221432199996,33.80767325300008,0 -84.40218754099999,33.80761536800003,0 -84.40215464299996,33.80755972300005,0 -84.40211589599994,33.80750676800005,0 -84.40210611099997,33.80749205800004,0 -84.40209950199994,33.80747616300005,0 -84.40209391299999,33.80746268600006,0 -84.40208565699999,33.80745020000006,0 -84.40207497499995,33.80743907000004,0 -84.40206217999997,33.80742962100004,0 -84.40204764399994,33.80742212800004,0 -84.40203179199995,33.80741680900007,0 -84.40201508599995,33.80741382200006,0 -84.40199801599994,33.80741325100007,0 -84.40198107799995,33.80741511600007,0 -84.40191789599999,33.80742374700003,0 -84.40174463299996,33.80743939500007,0 -84.40154285399996,33.80746531000005,0 -84.40147935699997,33.80743473600006,0 -84.40141830499994,33.80740087000004,0 -84.40137830599997,33.80737337700003,0 -84.40134334799995,33.80734145400004,0 -84.40131412599999,33.80730573700004,0 -84.40129122599996,33.80726693900004,0 -84.40127510399998,33.80722583400006,0 -84.40124971599994,33.80713186800006,0 -84.40122973399997,33.80703699600008,0 -84.40122443699994,33.80699029500005,0 -84.40122540099998,33.80694339200005,0 -84.40122539499998,33.80691208000007,0 -84.40121992899998,33.80688110100004,0 -84.40120911799994,33.80685111800005,0 -84.40119319299998,33.80682276800007,0 -84.40117249299999,33.80679665600007,0 -84.40114745999995,33.80677333700004,0 -84.40109745099994,33.80673497400005,0 -84.40104531099996,33.80669864300006,0 -84.40098857899994,33.80666376600004,0 -84.40092891499995,33.80663248500008,0 -84.40088788799994,33.80660952100004,0 -84.40085089499996,33.80658219500003,0 -84.40081859399999,33.80655099700004,0 -84.40077169199998,33.80650302200007,0 -84.40072049699995,33.80645821000007,0 -84.40066531299999,33.80641682800007,0 -84.40062369799995,33.80639068000005,0 -84.40057926799994,33.80636798800003,0 -84.40053243399996,33.80634896000004,0 -84.40048362799996,33.80633377300006,0 -84.40025510899994,33.80627293300006,0 -84.40020809399994,33.80622752100004,0 -84.40016690599998,33.80617832300004,0 -84.40013197999997,33.80612585800003,0 -84.40010368499998,33.80607067900007,0 -84.40009881999998,33.80605656400007,0 -84.40009646999994,33.80604200900007,0 -84.40009667999999,33.80602732300002,0 -84.40009944899998,33.80601281800006,0 -84.40012572499995,33.80592938100006,0 -84.40015716199997,33.80584719700005,0 -84.40019367599996,33.80576648900006,0 -84.40023516899998,33.80568747400002,0 -84.40032241899996,33.80553242400003,0 -84.40047059199998,33.80528875400006,0 -84.40050156799998,33.80525066900003,0 -84.40052578099994,33.80520931000007,0 -84.40054274599999,33.80516550900006,0 -84.40055212099998,33.80512014500005,0 -84.40055371799997,33.80507413000004,0 -84.40054750499996,33.80502838900003,0 -84.40053161899993,33.80495706300007,0 -84.40052019999996,33.80494493700007,0 -84.40051107499994,33.80493152400004,0 -84.40050444799994,33.80491712500003,0 -84.40050046799996,33.80490206200005,0 -84.40049922399999,33.80488667200007,0 -84.40050098899997,33.80468938300004,0 -84.40055464899996,33.80444355100008,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00001">
+			<name>Bill Kennedy Way</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Bill Kennedy Way</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Bill Kennedy Way</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Design</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>1449</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>0.274386</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>0.3</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>1448.759408</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>1448.759408</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle012</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.35825474499995,33.74212704000007,0 -84.35822075999994,33.74235059300003,0 -84.35822771599999,33.74371100900004,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.35825045399997,33.73969368400003,0 -84.35821358599998,33.74208926600005,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00002">
+			<name>Westside Trail - North Extension</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Westside Trail - North Extension</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Westside Trail - North Extension</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Design</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>6734</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>1.275355</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>1.3</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>745.860635</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>6733.875936</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle014</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42349382699996,33.77427096300005,0 -84.42344267199996,33.77418031300004,0 -84.42339079299995,33.77402654800005,0 -84.42336893099997,33.77387987800006,0 -84.42338138099996,33.77374387200007,0 -84.42341117199999,33.77367581900006,0 -84.42350505699994,33.77354680100007,0 -84.42358613999994,33.77343570000005,0 -84.42365008199994,33.77332463600004,0 -84.42370956999997,33.77315632500006,0 -84.42376910999997,33.77300590600004,0 -84.42384055599996,33.77282051600002,0 -84.42385142399996,33.77279079300007,0 -84.42386251799996,33.77272659900007,0 -84.42387663299996,33.77259837100007,0 -84.42388280399996,33.77246970600004,0 -84.42388101099993,33.77234094500005,0 -84.42387126099999,33.77221243400004,0 -84.42385357799998,33.77208451500007,0 -84.42382801099996,33.77195752900008,0 -84.42379462899999,33.77183181400005,0 -84.42368863199994,33.77147634300007,0 -84.42308966199994,33.76932797500007,0 -84.42303499599996,33.76917430900005,0 -84.42298716899995,33.76901906200004,0 -84.42294624499993,33.76886244400004,0 -84.42291227999993,33.76870466900004,0 -84.42288532299995,33.76854595400005,0 -84.42286540599997,33.76838651500003,0 -84.42285256099996,33.76822657000002,0 -84.42284680399996,33.76806633800004,0 -84.42284814099997,33.76790603800004,0 -84.42285657199994,33.76774588900003,0 -84.42288474299994,33.76760368200007,0 -84.42292053499995,33.76746267600004,0 -84.42296387299996,33.76732315500004,0 -84.42301467299995,33.76718540000007,0 -84.42307282899998,33.76704969100007,0 -84.42313822599994,33.76691630000005,0 -84.42321072999994,33.76678549700006,0 -84.42329019599998,33.76665754600003,0 -84.42337646399994,33.76653270500003,0 -84.42346935799998,33.76641122700005,0 -84.42356869199995,33.76629335600006,0 -84.42367426599998,33.76617933000006,0 -84.42378586399997,33.76606938000003,0 -84.42390326299994,33.76596372800003,0 -84.42402622599997,33.76586258700007,0 -84.42415450399994,33.76576616100004,0 -84.42428783899999,33.76567464300007,0 -84.42442596099994,33.76558822100003,0 -84.42463480699996,33.76544399500006,0 -84.42453044199993,33.76452554200006,0 -84.42442443599998,33.76393556000005,0 -84.42425322299994,33.76342456100008,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42425942599994,33.76340836500003,0 -84.42389792499995,33.76132959000006,0 -84.42423820899995,33.75986118300006,0 -84.42447979299999,33.75870070000008,0 -84.42478864399999,33.75784640700005,0 -84.42520826499998,33.75664973500005,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00003">
+			<name>Southside Trail</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Southside Trail</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Southside Trail</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Design</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>15878</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>3.007268</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>3</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td>2019</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>15878.372552</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>15878.372552</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle0142</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.39849695799995,33.72008860900007,0 -84.39807300599995,33.72001914100008,0 -84.39768746899995,33.71996422500007,0 -84.39704185899996,33.71982230000003,0 -84.39624323999999,33.71959794000003,0 -84.39562412499998,33.71944918000003,0 -84.39535342599999,33.71938413600003,0 -84.39484122999994,33.71936129100004,0 -84.39415831199994,33.71937053000005,0 -84.39349743899999,33.71947137900003,0 -84.39322207899994,33.71954470300005,0 -84.39224859699993,33.71985367900004,0 -84.39130684199995,33.72019276600003,0 -84.39036509699997,33.72054558000008,0 -84.38944754499994,33.72101664300004,0 -84.38843419299997,33.72150688000005,0 -84.38755852799994,33.72197876800004,0 -84.38608441899999,33.72269307800008,0 -84.38505451299994,33.72321076900005,0 -84.38409619699996,33.72366888900007,0 -84.38326506799996,33.72396774700007,0 -84.38266472099997,33.72413725800004,0 -84.38218003999998,33.72421514200005,0 -84.38149708099996,33.72430218800002,0 -84.38089673799999,33.72432051400006,0 -84.37977866299997,33.72430676600004,0 -84.37818773699996,33.72429300300007,0 -84.37687138299998,33.72432045900007,0 -84.37519151799995,33.72432497500006,0 -84.37452573599995,33.72438591800005,0 -84.37394739699994,33.72449125700007,0 -84.37289537099997,33.72482103200008,0 -84.37110528199997,33.72538894100006,0 -84.36839211799997,33.72623380300007,0 -84.36716380299998,33.72660473100007,0 -84.36635960299998,33.72691156100007,0 -84.36540666399998,33.72730540400005,0 -84.36441281899994,33.72787773400006,0 -84.36376828499994,33.72832200800008,0 -84.36323392299994,33.72873422000004,0 -84.36258934999995,33.72937545400004,0 -84.36192820199994,33.73021365600005,0 -84.36122070399995,33.73142115700006,0 -84.36077985799994,33.73222733600005,0 -84.36036648699996,33.73329919700006,0 -84.35980505299995,33.73496671000004,0 -84.35902811299997,33.73734347800007,0 -84.35825045399997,33.73969368400003,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00004">
+			<name>Northeast Trail - South</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Northeast Trail - South</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Northeast Trail - South</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Design</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>4409</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>0.834975</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>0.8</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td>2010</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>4408.67031</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>4408.67031</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle014</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.36863104199995,33.78221659300004,0 -84.36924213299994,33.78295268300008,0 -84.37021905399996,33.78425406200006,0 -84.37041919299998,33.78459612200004,0 -84.37049337999997,33.78482473000003,0 -84.37056227399995,33.78505449100004,0 -84.37062584999995,33.78528531700005,0 -84.37067862399994,33.78550100000007,0 -84.37072369299995,33.78571789900008,0 -84.37074541999993,33.78584796000007,0 -84.37076142599994,33.78597860000008,0 -84.37077168699994,33.78610964100005,0 -84.37077619099995,33.78624090800002,0 -84.37078323999998,33.78681154800006,0 -84.37074755799995,33.78716185700006,0 -84.37072249899995,33.78726800600003,0 -84.37041775199998,33.78977760900005,0 -84.37033073499998,33.79038788400004,0 -84.37023803599999,33.79103799500007,0 -84.37014420499997,33.79236261800003,0 -84.37014561699993,33.79242306000003,0 -84.37015531999998,33.79249446200004,0 -84.37024851199999,33.79318027600004,0 -84.37033708599995,33.79383208700006,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00005">
+			<name>Eastside Trail</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Eastside Trail</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Eastside Trail</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Completed</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>10130</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>1.918494</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>1.9</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td>2012</td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>10129.649008</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>10129.649008</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle00</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.36487020399994,33.75761875700005,0 -84.36484007199994,33.75775253900008,0 -84.36480890299998,33.75788150100004,0 -84.36475648199996,33.75806138200005,0 -84.36469893099996,33.75822935400004,0 -84.36462780299996,33.75840909400006,0 -84.36458031899997,33.75851770300005,0 -84.36451569199994,33.75865195000006,0 -84.36443109999999,33.75881033900004,0 -84.36433069199995,33.75898176600003,0 -84.36423814799997,33.75912718600006,0 -84.36410177099998,33.75931887400003,0 -84.36406757099996,33.75936401200005,0 -84.36390865499999,33.75955838800007,0 -84.36378363999995,33.75969710000004,0 -84.36363761599995,33.75984718200004,0 -84.36350618099993,33.75997127500005,0 -84.36336947799998,33.76009161400003,0 -84.36322778199997,33.76020739500007,0 -84.36308119699999,33.76031884700006,0 -84.36292957899997,33.76042621600004,0 -84.36278132799998,33.76052532200003,0 -84.36262694799996,33.76062738200005,0 -84.36247229199995,33.76073019700004,0 -84.36231751399998,33.76083268300005,0 -84.36218118499994,33.76092317200005,0 -84.36195645099997,33.76107233600004,0 -84.36188034699995,33.76112716600005,0 -84.36181114499999,33.76118594600007,0 -84.36171247199997,33.76127030000004,0 -84.36160542999994,33.76135977600006,0 -84.36153451499996,33.76141657200003,0 -84.36141510999994,33.76151014000004,0 -84.36126415099994,33.76161514300003,0 -84.36113771699996,33.76170473300004,0 -84.36102038599995,33.76180346900003,0 -84.36088905499997,33.76192745600002,0 -84.36076324199996,33.76205453600005,0 -84.36074246799996,33.76207670000008,0 -84.36060317099998,33.76223026300005,0 -84.36046617499994,33.76238554700006,0 -84.36035317499994,33.76252075100007,0 -84.36024749099994,33.76266142100008,0 -84.36015047599994,33.76280639800007,0 -84.36004894999996,33.76298003500006,0 -84.35997119799998,33.76313397500007,0 -84.35990378099996,33.76328888700004,0 -84.35983555699994,33.76347258100003,0 -84.35973310299994,33.76375879100004,0 -84.35969109099995,33.76389044800004,0 -84.35965564199995,33.76402344500008,0 -84.35962681699993,33.76415755400006,0 -84.35960443899995,33.76430027700007,0 -84.35958616899995,33.76446509800007,0 -84.35957864299996,33.76463125400005,0 -84.35958091199996,33.76482377600007,0 -84.35958324699999,33.76490630500007,0 -84.35958762299998,33.76504356900006,0 -84.35959789399999,33.76520939500006,0 -84.35961811999994,33.76537436900003,0 -84.35965233499996,33.76556514400005,0 -84.35969885199995,33.76575566400004,0 -84.35974854799997,33.76591609700006,0 -84.35980638499996,33.76607456200003,0 -84.35988446699997,33.76625602200005,0 -84.35997431599998,33.76643445100007,0 -84.36007623999996,33.76660842100006,0 -84.36018888299998,33.76677708100004,0 -84.36031125099998,33.76694109100004,0 -84.36040430899999,33.76705509700002,0 -84.36052431999997,33.76718766400006,0 -84.36065121599995,33.76731512500004,0 -84.36068637999995,33.76735044300005,0 -84.36083094799994,33.76749060400005,0 -84.36093230199998,33.76758805100008,0 -84.36105086199996,33.76770330900007,0 -84.36120256599997,33.76785006400007,0 -84.36135275299995,33.76799577900005,0 -84.36150327399997,33.76814192100005,0 -84.36165269999998,33.76828764500004,0 -84.36180333699997,33.76843355000005,0 -84.36195413499996,33.76857938900002,0 -84.36210351999995,33.76872480300005,0 -84.36224935999996,33.76887399900005,0 -84.36237180799998,33.76900280400002,0 -84.36249239699998,33.76913303500004,0 -84.36262883599994,33.76928685000007,0 -84.36271869099994,33.76939140200005,0 -84.36279672899997,33.76948401600004,0 -84.36291494499994,33.76962935800003,0 -84.36305799299998,33.76981262300006,0 -84.36317999299996,33.76997531500007,0 -84.36328049599996,33.77011626300003,0 -84.36339617099998,33.77028318700008,0 -84.36349164999996,33.77042686800007,0 -84.36358389099996,33.77057212300008,0 -84.36367868999997,33.77074593500004,0 -84.36372792999998,33.77084726200007,0 -84.36375712799997,33.77090256000002,0 -84.36376339799995,33.77091228900008,0 -84.36377141199995,33.77092108100004,0 -84.36378096999994,33.77092872100008,0 -84.36379184199996,33.77093501900004,0 -84.36380375699997,33.77093982200006,0 -84.36381102699994,33.77094218600007,0 -84.36382723399998,33.77094875400007,0 -84.36384196899996,33.77095740600004,0 -84.36385485199997,33.77096792000003,0 -84.36386555099995,33.77098002300005,0 -84.36387378699999,33.77099340200004,0 -84.36398263399997,33.77124076800004,0 -84.36398784699998,33.77126858900004,0 -84.36398745699995,33.77129674700006,0 -84.36398147499995,33.77132446000007,0 -84.36397006399994,33.77135095800003,0 -84.36396664699998,33.77136343800004,0 -84.36396541699997,33.77137620000008,0 -84.36396640199996,33.77138897600003,0 -84.36396957999995,33.77140150100007,0 -84.36397488499995,33.77141351200004,0 -84.36405456199998,33.77159455400005,0 -84.36412247799996,33.77174921400007,0 -84.36419023599996,33.77190427600004,0 -84.36424337299997,33.77203454100004,0 -84.36427605199998,33.77212284700005,0 -84.36430297399994,33.77221249900003,0 -84.36432405999994,33.77230323400005,0 -84.36436874199995,33.77248474800007,0 -84.36441194799994,33.77265943100008,0 -84.36445639499999,33.77284140800003,0 -84.36451044099994,33.77305615300003,0 -84.36453513999999,33.77313366300007,0 -84.36455009399998,33.77317380000005,0 -84.36456653899995,33.77322851000002,0 -84.36462665299996,33.77347507900004,0 -84.36466614799997,33.77363879100005,0 -84.36470029899994,33.77380088600006,0 -84.36473538999996,33.77399173300006,0 -84.36476445899996,33.77418264300007,0 -84.36479118399996,33.77434633300004,0 -84.36482262499999,33.77450966200007,0 -84.36485053299998,33.77464585500007,0 -84.36487885899999,33.77476698400005,0 -84.36492107499998,33.77494188200006,0 -84.36496594199997,33.77513015200003,0 -84.36501225799998,33.77531870700005,0 -84.36505080699999,33.77548029200005,0 -84.36509027199997,33.77564205800007,0 -84.36512913799999,33.77580456600003,0 -84.36516822999994,33.77596636400006,0 -84.36520733199995,33.77612796200003,0 -84.36525234799996,33.77631619500005,0 -84.36529210499998,33.77647812600003,0 -84.36534049899996,33.77666715300006,0 -84.36537071799995,33.77676932900005,0 -84.36542378799999,33.77693676300004,0 -84.36547523399997,33.77709565400005,0 -84.36552738199998,33.77725514700006,0 -84.36557935499997,33.77741385500008,0 -84.36563948299994,33.77759905800008,0 -84.36569153199997,33.77775874700006,0 -84.36573550899999,33.77789243700005,0 -84.36578604899995,33.77805036500007,0 -84.36584029099998,33.77820900700004,0 -84.36589909999998,33.77836748300007,0 -84.36596540799997,33.77852398200002,0 -84.36603779699999,33.77867707400003,0 -84.36612995699994,33.77885327500007,0 -84.36619685899996,33.77897016500003,0 -84.36632176899997,33.77916492700007,0 -84.36638573299996,33.77926145700008,0 -84.36653108899998,33.77947764200007,0 -84.36667577499998,33.77969242400007,0 -84.36682088999999,33.77990829900006,0 -84.36688908399998,33.78000270100006,0 -84.36701273699998,33.78016508400003,0 -84.36706638099997,33.78023428500006,0 -84.36722739299995,33.78044196100007,0 -84.36737142199996,33.78062667000006,0 -84.36742249099996,33.78068716400003,0 -84.36747739699996,33.78074526700004,0 -84.36753598099995,33.78080080900003,0 -84.36757966999994,33.78084204200007,0 -84.36768882099994,33.78094480800007,0 -84.36772548299996,33.78097869800007,0 -84.36775909599999,33.78101472600002,0 -84.36778948299997,33.78105269900004,0 -84.36784420999999,33.78112127900005,0 -84.36791626199994,33.78121335800006,0 -84.36807677399997,33.78142075800002,0 -84.36823743799994,33.78162857100006,0 -84.36839415999998,33.78183130800005,0 -84.36841027199995,33.78184905800003,0 -84.36842939399997,33.78186458500005,0 -84.36845109299998,33.78187753800006,0 -84.36847487499995,33.78188762100007,0 -84.36850020099996,33.78189460700003,0 -84.36850036099997,33.78189464000008,0 -84.36853784499993,33.78189946200007,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00006">
+			<name>Westside Trail</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Westside Trail</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Westside Trail</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Completed</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>7950</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>1.505735</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>1.5</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td>2017</td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>7950.278743</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>7950.278743</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle00</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42521259799997,33.75664752200004,0 -84.42523049299996,33.75657884300006,0 -84.42524801599995,33.75651351600004,0 -84.42524865399997,33.75651109500006,0 -84.42526149299994,33.75646434300006,0 -84.42527530699994,33.75641778700003,0 -84.42529009199995,33.75637143800003,0 -84.42529648699997,33.75635233900005,0 -84.42530274699999,33.75633390100006,0 -84.42532807899994,33.75625482100003,0 -84.42535057899994,33.75617514500004,0 -84.42544362999996,33.75582220400003,0 -84.42545530099994,33.75576998200006,0 -84.42546126899998,33.75573148200004,0 -84.42548573599998,33.75553796700007,0 -84.42548769499996,33.75552367100005,0 -84.42548995199996,33.75550940600004,0 -84.42549250699994,33.75549517500008,0 -84.42549535899997,33.75548098400003,0 -84.42549850699999,33.75546683700003,0 -84.42550194899997,33.75545273800003,0 -84.42550338199999,33.75544721400007,0 -84.42565033999995,33.75488989400003,0 -84.42583507799998,33.75418928900007,0 -84.42583709399997,33.75418195000003,0 -84.42583926399999,33.75417464000003,0 -84.42584158499994,33.75416736300008,0 -84.42584405799994,33.75416012100004,0 -84.42584668199999,33.75415291700006,0 -84.42584945599998,33.75414575200006,0 -84.42585222399998,33.75413899800003,0 -84.42587590399995,33.75408273400006,0 -84.42589139999995,33.75403738300002,0 -84.42602463199995,33.75353494400008,0 -84.42605390999995,33.75342453000007,0 -84.42605713699999,33.75341284500007,0 -84.42606060699995,33.75340121000005,0 -84.42606431999997,33.75338962600006,0 -84.42606827499998,33.75337809900003,0 -84.42607246999995,33.75336663100006,0 -84.42607357499998,33.75336372300006,0 -84.42607746699997,33.75335356200003,0 -84.42609734899997,33.75329193300007,0 -84.42640096599996,33.75214023100006,0 -84.42662506599999,33.75129013900005,0 -84.42662795499996,33.75127962000005,0 -84.42663106199996,33.75126914500004,0 -84.42663438899996,33.75125871600005,0 -84.42663793199995,33.75124833800004,0 -84.42664169199998,33.75123801300003,0 -84.42664566699995,33.75122774400006,0 -84.42664985499994,33.75121753500002,0 -84.42665425699994,33.75120738800007,0 -84.42665886999998,33.75119730800003,0 -84.42666369299997,33.75118729600007,0 -84.42666872399997,33.75117735500004,0 -84.42667396199994,33.75116749000006,0 -84.42667940599995,33.75115770300005,0 -84.42668505299997,33.75114799700003,0 -84.42669090099997,33.75113837400005,0 -84.42669694999995,33.75112883700007,0 -84.42670319899997,33.75111939000004,0 -84.42670964199993,33.75111003700005,0 -84.42671628099998,33.75110077800008,0 -84.42672311199999,33.75109161800003,0 -84.42673013299998,33.75108255900005,0 -84.42673734199997,33.75107360300007,0 -84.42674473699998,33.75106475400003,0 -84.42675231599998,33.75105601300004,0 -84.42676007699998,33.75104738500005,0 -84.42676801599998,33.75103887100005,0 -84.42677613299998,33.75103047500005,0 -84.42678442299996,33.75102219800004,0 -84.42679288599999,33.75101404200007,0 -84.42680151599995,33.75100601200006,0 -84.42681031399997,33.75099810900008,0 -84.42681927599995,33.75099033500004,0 -84.42682839799994,33.75098269300003,0 -84.42683767899996,33.75097518500007,0 -84.42684711499999,33.75096781400003,0 -84.42685670399999,33.75096058000003,0 -84.42686644299994,33.75095348900004,0 -84.42687632899998,33.75094654000003,0 -84.42687848599996,33.75094505500005,0 -84.42701568499996,33.75085103300006,0 -84.42707193199999,33.75080872400002,0 -84.42712328399995,33.75076227600005,0 -84.42716930599994,33.75071208200006,0 -84.42720961099997,33.75065856500004,0 -84.42724385499997,33.75060217900005,0 -84.42727174899994,33.75054340400004,0 -84.42729305599994,33.75048273400006,0 -84.42730759799997,33.75042068600004,0 -84.42731792599994,33.75036253600007,0 -84.42732082599997,33.75034713500003,0 -84.42732404699996,33.75033178100006,0 -84.42732758799997,33.75031647600008,0 -84.42733144799996,33.75030122400005,0 -84.42733562699993,33.75028603200008,0 -84.42734012199998,33.75027090100008,0 -84.42734493299997,33.75025584000008,0 -84.42735005799994,33.75024085100006,0 -84.42735549499997,33.75022593800003,0 -84.42736124299995,33.75021110700004,0 -84.42736729999996,33.75019636300004,0 -84.42737366399996,33.75018170800007,0 -84.42738033299997,33.75016714900005,0 -84.42738730499997,33.75015268900006,0 -84.42739457899995,33.75013833300005,0 -84.42740214999998,33.75012408600003,0 -84.42741001999997,33.75010995000002,0 -84.42741818199994,33.75009593200008,0 -84.42742663599995,33.75008203500005,0 -84.42743537999996,33.75006826300006,0 -84.42744440999996,33.75005462100006,0 -84.42745372299999,33.75004111200008,0 -84.42746331799998,33.75002774200004,0 -84.42747318999994,33.75001451300005,0 -84.42748333599997,33.75000143000005,0 -84.42749375499994,33.74998849700006,0 -84.42750444199999,33.74997571800003,0 -84.42751539499994,33.74996309700003,0 -84.42752660999997,33.74995063700004,0 -84.42753808399993,33.74993834300005,0 -84.42754981199994,33.74992621800004,0 -84.42756179299994,33.74991426500003,0 -84.42757402099994,33.74990249000007,0 -84.42758649299998,33.74989089300004,0 -84.42759920499998,33.74987948100005,0 -84.42761215399997,33.74986825600007,0 -84.42761738399997,33.74986383200007,0 -84.42765434599994,33.74983278100007,0 -84.42769377299999,33.74979607100005,0 -84.42772849299996,33.74975618200006,0 -84.42775814099997,33.74971353200004,0 -84.42778240299998,33.74966857000004,0 -84.42780102599994,33.74962176900004,0 -84.42782335799996,33.74955426100007,0 -84.42783124599998,33.74953120100002,0 -84.42783961499998,33.74950826100007,0 -84.42784846199999,33.74948544400007,0 -84.42785778299998,33.74946276200006,0 -84.42786757799996,33.74944021800007,0 -84.42787784199999,33.74941782000008,0 -84.42788857299996,33.74939557500005,0 -84.42789208899995,33.74938863900007,0 -84.42789976599994,33.74937349100003,0 -84.42791141899994,33.74935157200008,0 -84.42792352899994,33.74932982800004,0 -84.42793608999995,33.74930826200006,0 -84.42794909999998,33.74928688400007,0 -84.42796255499997,33.74926569800004,0 -84.42797645099995,33.74924471200006,0 -84.42799078299998,33.74922393100007,0 -84.42800554599995,33.74920336300005,0 -84.42802073799999,33.74918301300005,0 -84.42803635199994,33.74916288700007,0 -84.42805238499994,33.74914299300008,0 -84.42806882999997,33.74912333400005,0 -84.42808568399994,33.74910391900005,0 -84.42810294099996,33.74908475200004,0 -84.42810412199998,33.74908346500007,0 -84.42819146699998,33.74899012500003,0 -84.42828074999994,33.74889807200003,0 -84.42837194099997,33.74880733600003,0 -84.42846501399998,33.74871794200004,0 -84.42855994099995,33.74862991900005,0 -84.42857853499999,33.74861303400007,0 -84.42999540499994,33.74733073100003,0 -84.43042452199995,33.74694235900006,0 -84.43049987599994,33.74687415900007,0 -84.43054227199997,33.74683578900004,0 -84.43078212499995,33.74661870600005,0 -84.43309392599997,33.74452630300004,0 -84.43314318399996,33.74448171800003,0 -84.43323777199998,33.74439183500004,0 -84.43332704299996,33.74429823400004,0 -84.43341079199996,33.74420113600007,0 -84.43348881799994,33.74410076800007,0 -84.43356094299997,33.74399736300006,0 -84.43362699599999,33.74389116600003,0 -84.43368682199997,33.74378242300003,0 -84.43373962499999,33.74367285200003,0 -84.43378610699995,33.74356130000007,0 -84.43382615999997,33.74344802200005,0 -84.43385969399998,33.74333327500005,0 -84.43388663199994,33.74321732200008,0 -84.43390691299999,33.74310042600007,0 -84.43401234799995,33.74237031400003,0 -84.43402362699999,33.74229220700005,0 -84.43403182499998,33.74221902000005,0 -84.43403532699995,33.74214557100004,0 -84.43405529899997,33.74086792200006,0 -84.43405317799994,33.74073660800008,0 -84.43404271799994,33.74060557400003,0 -84.43402394699996,33.74047518900005,0 -84.43399692099996,33.74034581900003,0 -84.43396171299997,33.74021783000006,0 -84.43391842299997,33.74009158300004,0 -84.43386717499999,33.73996743300006,0 -84.43380811099996,33.73984573100006,0 -84.43374139999997,33.73972681900005,0 -84.43366722799999,33.73961103300007,0 -84.43358580399996,33.73949869900002,0 -84.43349735899994,33.73939013400008,0 -84.43338337799997,33.73925791000005,0 -84.43332363399998,33.73919279500006,0 -84.43325934599994,33.73913077500004,0 -84.43317406099999,33.73905619100003,0 -84.43308545299999,33.73898436100006,0 -84.43300118699995,33.73892084900007,0 -84.43299152099996,33.73891369000006,0 -84.43298200499999,33.73890639200005,0 -84.43297264399996,33.73889895500002,0 -84.43296343899993,33.73889138300007,0 -84.43295439299999,33.73888367800004,0 -84.43294550999997,33.73887584300007,0 -84.43293679199996,33.73886787900005,0 -84.43292824199995,33.73885978900006,0 -84.43291986299994,33.73885157600006,0 -84.43291165499994,33.73884324200003,0 -84.43290362299996,33.73883479000006,0 -84.43289576899997,33.73882622100007,0 -84.43289111599995,33.73882099500003,0 -84.43281632999998,33.73874156800008,0 -84.43273556999998,33.73866633400007,0 -84.43264917199997,33.73859560800003,0 -84.43255749499997,33.73852968200003,0 -84.43252300999995,33.73850604000006,0 -84.43248902299996,33.73848190000007,0 -84.43245554699996,33.73845726800005,0 -84.43242258999999,33.73843215100004,0 -84.43239016299998,33.73840655700008,0 -84.43235827499996,33.73838049500006,0 -84.43232693699997,33.73835397100004,0 -84.43230502399996,33.73833486300003,0 -84.43228329299995,33.73831533800006,0 -84.43226197399997,33.73829550000005,0 -84.43224107199995,33.73827535300006,0 -84.43222059499999,33.73825490500008,0 -84.43220054799997,33.73823416300007,0 -84.43218093599995,33.73821312900003,0 -84.43216176799996,33.73819181400006,0 -84.43214304599996,33.73817022300005,0 -84.43212477999998,33.73814836200006,0 -84.43210697299997,33.73812623700007,0 -84.43208962999995,33.73810385700006,0 -84.43207275799995,33.73808122700007,0 -84.43205636199997,33.73805835500008,0 -84.43204044599997,33.73803524600004,0 -84.43202501399998,33.73801191000007,0 -84.43201007199997,33.73798835100007,0 -84.43199562599995,33.73796458000004,0 -84.43198167699995,33.73794060000006,0 -84.43197123699997,33.73792192200006,0 -84.43195788999998,33.73790021400004,0 -84.43194228999994,33.73787958200006,0 -84.43190909899994,33.73784580400007,0 -84.43186991899995,33.73781684900007,0 -84.43182574099995,33.73779344900004,0 -84.43177768199996,33.73777619500004,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00007">
+			<name>Westside Trail</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Westside Trail</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Westside Trail</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Completed</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>5674</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>1.074604</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>1.1</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td>2017</td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>5673.907055</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>5673.907055</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle00</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42402226099995,33.73257947600007,0 -84.42388853799997,33.73252791800007,0 -84.42383249299996,33.73249444900006,0 -84.42377715499998,33.73246016700006,0 -84.42372254199995,33.73242508400006,0 -84.42366866899994,33.73238920900008,0 -84.42361555399998,33.73235255400004,0 -84.42360286599995,33.73234360300006,0 -84.42333377999995,33.73215295900008,0 -84.42324203799996,33.73209029800006,0 -84.42314765499998,33.73203044000007,0 -84.42281330999998,33.73182621900003,0 -84.42272121799994,33.73176893100003,0 -84.42263033499995,33.73171030800006,0 -84.42254069099994,33.73165036800003,0 -84.42245231199996,33.73158913100008,0 -84.42237155199996,33.73153123000003,0 -84.42062543999998,33.73025868600007,0 -84.42050292199997,33.73017157500004,0 -84.42037789199998,33.73008699300004,0 -84.42027976099996,33.73002349900003,0 -84.42018021299998,33.72996156200003,0 -84.41692024699995,33.72797283800003,0 -84.41689364699994,33.72795661000004,0 -84.41656901499994,33.72775856000004,0 -84.41654242299995,33.72774233700005,0 -84.41643663799994,33.72767780000004,0 -84.41641821199994,33.72766635100004,0 -84.41640002899999,33.72765463600007,0 -84.41638209199994,33.72764265700005,0 -84.41636440899998,33.72763041800005,0 -84.41634698299998,33.72761792400007,0 -84.41634034399993,33.72761304600004,0 -84.41623185299994,33.72753278800008,0 -84.41618462599996,33.72749947100004,0 -84.41613557699998,33.72746804400003,0 -84.41494217399998,33.72673993100005,0 -84.41487307899996,33.72669699700003,0 -84.41480489099996,33.72665306100004,0 -84.41473763199997,33.72660813900006,0 -84.41467132099996,33.72656224200006,0 -84.41460597999998,33.72651538500003,0 -84.41454162599996,33.72646758200005,0 -84.41447827999997,33.72641884900003,0 -84.41441596299995,33.72636919800004,0 -84.41435469299995,33.72631864700003,0 -84.41429448599996,33.72626721000006,0 -84.41423536399998,33.72621490200004,0 -84.41417734499998,33.72616174000007,0 -84.41412044299994,33.72610774000003,0 -84.41406467799999,33.72605291900004,0 -84.41401006699994,33.72599729300003,0 -84.41395662699995,33.72594087800007,0 -84.41390437199999,33.72588369400006,0 -84.41385332099998,33.72582575500007,0 -84.41380348699994,33.72576708100007,0 -84.41375488599994,33.72570769000004,0 -84.41370753299998,33.72564759800008,0 -84.41366144199998,33.72558682500005,0 -84.41361662799994,33.72552538900004,0 -84.41357310499995,33.72546331000007,0 -84.41355278499998,33.72543313100005,0 -84.41353088399995,33.72540060400007,0 -84.41348997899996,33.72533729300005,0 -84.41345040399995,33.72527339400006,0 -84.41341216899997,33.72520892900008,0 -84.41339308899995,33.72517566300007,0 -84.41220939899995,33.72308790700004,0 -84.41219733699995,33.72306614400003,0 -84.41218573299994,33.72304421000007,0 -84.41217458899996,33.72302210900006,0 -84.41216585699993,33.72300399800002,0 -84.41208505999998,33.72283291000008,0 -84.41204151999995,33.72274900200006,0 -84.41194478499995,33.72257837800004,0 -84.41187412399995,33.72260635000004,0 -84.41187219699998,33.72260709600005,0 -84.41187025399995,33.72260781300002,0 -84.41186829799994,33.72260850200007,0 -84.41186632599994,33.72260916400006,0 -84.41186434099995,33.72260979500004,0 -84.41186234399999,33.72261039800003,0 -84.41186033399998,33.72261097100005,0 -84.41185831199994,33.72261151500004,0 -84.41185627999994,33.72261202900006,0 -84.41185423599995,33.72261251400005,0 -84.41185218299995,33.72261296900007,0 -84.41185012099999,33.72261339400006,0 -84.41184805099994,33.72261378800005,0 -84.41184597199998,33.72261415200006,0 -84.41184388599999,33.72261448600005,0 -84.41184179399994,33.72261479000008,0 -84.41183969499997,33.72261506400002,0 -84.41183759099994,33.72261530600008,0 -84.41183548299995,33.72261551700007,0 -84.41183336899996,33.72261569800003,0 -84.41183125399994,33.72261584800003,0 -84.41182971699999,33.72261593500008,0 -84.41182913399996,33.72261596700002,0 -84.41182701299994,33.72261605500006,0 -84.41182488999993,33.72261611300007,0 -84.41182276699999,33.72261613900002,0 -84.41182064299994,33.72261613500007,0 -84.41181851999994,33.72261609800006,0 -84.41181639699994,33.72261603200008,0 -84.41181427599997,33.72261593500008,0 -84.41181215799998,33.72261580600008,0 -84.41181004199996,33.72261564600007,0 -84.41180793099994,33.72261545700007,0 -84.41180582299995,33.72261523600002,0 -84.41180372199995,33.72261498500006,0 -84.41180162399996,33.72261470200004,0 -84.41179953399995,33.72261438900006,0 -84.41179744999994,33.72261404600005,0 -84.41179537399995,33.72261367200008,0 -84.41179330599994,33.72261326900008,0 -84.41179124599995,33.72261283500006,0 -84.41178919599997,33.72261237100003,0 -84.41178715599995,33.72261187700008,0 -84.41178512699997,33.72261135400004,0 -84.41178310899994,33.72261080100003,0 -84.41178110199996,33.72261021900005,0 -84.41177910899995,33.72260960700004,0 -84.41177712799998,33.72260896700004,0 -84.41177516099998,33.72260829800007,0 -84.41177320799994,33.72260760000006,0 -84.41177126999997,33.72260687400006,0 -84.41176934699996,33.72260612000008,0 -84.41176744099994,33.72260533800005,0 -84.41176555099997,33.72260452800003,0 -84.41176367899999,33.72260369000003,0 -84.41176182399994,33.72260282600007,0 -84.41175998699998,33.72260193400007,0 -84.41175816899994,33.72260101600006,0 -84.41175637099997,33.72260007200003,0 -84.41175459299996,33.72259910200006,0 -84.41175283599995,33.72259810500003,0 -84.41175109899996,33.72259708400003,0 -84.41174938299997,33.72259603700007,0 -84.41174769099996,33.72259496400005,0 -84.41174601999995,33.72259386900004,0 -84.41174437399997,33.72259274800007,0 -84.41174275099996,33.72259160400006,0 -84.41174115199999,33.72259043600008,0 -84.41173959699995,33.72258926000006,0 -84.41173708399998,33.72258729300006,0 -84.41173461199998,33.72258528900005,0 -84.41173218299997,33.72258324800003,0 -84.41172979699996,33.72258117400003,0 -84.41172745299997,33.72257906400006,0 -84.41172515499994,33.72257692100004,0 -84.41172290199995,33.72257474400004,0 -84.41172069399994,33.72257253500004,0 -84.41171853299994,33.72257029400004,0 -84.41171641899996,33.72256802200008,0 -84.41171435399997,33.72256571900004,0 -84.41171233599994,33.72256338700004,0 -84.41171036699996,33.72256102600005,0 -84.41170844699997,33.72255863600003,0 -84.41170657899994,33.72255621900007,0 -84.41170476099995,33.72255377400006,0 -84.41170299499998,33.72255130400004,0 -84.41170127999999,33.72254880800006,0 -84.41169961699995,33.72254628700006,0 -84.41169800799997,33.72254374300007,0 -84.41169645099995,33.72254117600005,0 -84.41169494899998,33.72253858600004,0 -84.41169350099995,33.72253597500003,0 -84.41169210799995,33.72253334400006,0 -84.41169076999995,33.72253069200008,0 -84.41168948699999,33.72252802000003,0 -84.41168825999995,33.72252533100004,0 -84.41168708999999,33.72252262500007,0 -84.41168597699999,33.72251990100006,0 -84.41168492099996,33.72251716100004,0 -84.41168392199995,33.72251440800005,0 -84.41168297999997,33.72251163900006,0 -84.41168209699998,33.72250885700004,0 -84.41168127099996,33.72250606400007,0 -84.41168050499994,33.72250325700003,0 -84.41167979699998,33.72250044100008,0 -84.41167914799996,33.72249761500007,0 -84.41167855799995,33.72249477900004,0 -84.41167802799998,33.72249193600004,0 -84.41167755699996,33.72248908500006,0 -84.41167714499994,33.72248622700005,0 -84.41167679299997,33.72248336500007,0 -84.41167650199998,33.72248049800004,0 -84.41167626899994,33.72247762600006,0 -84.41167609699994,33.72247475100005,0 -84.41167598499999,33.72247187500005,0 -84.41167593399996,33.72246899700008,0 -84.41167594199999,33.72246612000004,0 -84.41167600999995,33.72246324300005,0 -84.41167613899995,33.72246036600006,0 -84.41167632699995,33.72245749300004,0 -84.41167657599999,33.72245462300003,0 -84.41167688399997,33.72245175600005,0 -84.41167725299994,33.72244889500007,0 -84.41167767999997,33.72244603900003,0 -84.41167816799998,33.72244319000004,0 -84.41167831299998,33.72244240300006,0 -84.41169055899996,33.72237716700005,0 -84.41169312599999,33.72235160600007,0 -84.41169128299998,33.72232600100006,0 -84.41165866999995,33.72225222000003,0 -84.41164022999999,33.72223183900007,0 -84.41161849999997,33.72221386500007,0 -84.41159392399999,33.72219866400008,0 -84.41156700499994,33.72218654900007,0 -84.41153829099994,33.72217776700006,0 -84.41149075499999,33.72216921700004,0 -84.41144227599995,33.72216607100006,0 -84.41139372999999,33.72216838600008,0 -84.41134599399999,33.72217612000003,0 -84.41129993099997,33.72218913300003,0 -84.41129407799997,33.72219111300006,0 -84.41128818499999,33.72219300600005,0 -84.41128225199998,33.72219481300004,0 -84.41127628299995,33.72219653300004,0 -84.41127027999994,33.72219816700004,0 -84.41126424299995,33.72219971200008,0 -84.41125817399995,33.72220117000006,0 -84.41125207599998,33.72220253900008,0 -84.41124594899998,33.72220381800003,0 -84.41123979799994,33.72220500700007,0 -84.41123362299999,33.72220610700003,0 -84.41122742499994,33.72220711700004,0 -84.41122120699998,33.72220803600004,0 -84.41121497199998,33.72220886400004,0 -84.41120871999999,33.72220960200008,0 -84.41120245299999,33.72221024800007,0 -84.41119617399994,33.72221080200006,0 -84.41118988499994,33.72221126500006,0 -84.41118358499995,33.72221163600005,0 -84.41118162999999,33.72221173300005,0 -84.41104349199998,33.72221823000007,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00008">
+			<name>Westside Trail Extension</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Westside Trail Extension</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Westside Trail Extension</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Completed</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Temporary Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>371</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>0.070309</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>0.1</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td>2017</td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>371.233917</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>371.233917</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle00</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42337598599994,33.73344511300007,0 -84.42402226099995,33.73257947600007,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00009">
+			<name>Westside Trail Extension</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Westside Trail Extension</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Westside Trail Extension</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Completed</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Temporary Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>336</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>0.063594</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>0.1</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td>2017</td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>335.778917</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>335.778917</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle00</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.43177768199996,33.73777619500004,0 -84.43172695699997,33.73776552400005,0 -84.43167484799994,33.73776170500003,0 -84.43162267399998,33.73776483700004,0 -84.43157175299996,33.73777483700007,0 -84.43152337399994,33.73779145500004,0 -84.43147875899996,33.73781427000006,0 -84.43143903799995,33.73784270500005,0 -84.43140521199996,33.73787604000006,0 -84.43119320899996,33.73811353100007,0 -84.43087513099994,33.73803564400004,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00010">
+			<name>West End Trail</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>West End Trail</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>West End Trail</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Completed</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>PATH Foundation</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Temporary Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>3820</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>0.72343</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>0.7</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td>2008</td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>3819.712215</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>3819.712215</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle00</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.43087513099994,33.73803564400004,0 -84.43083177199998,33.73797045900005,0 -84.43080065999999,33.73795157800004,0 -84.42421028999996,33.73395175000007,0 -84.42326920799997,33.73338027100004,0 -84.42198276199997,33.73272401900005,0 -84.42199723099998,33.73279648000005,0 -84.42211808299999,33.73289348900005,0 -84.42240136499998,33.73308915700005,0 -84.42265116199997,33.73320847600007,0 -84.42281764699999,33.73327239100007,0 -84.42290114499997,33.73334420900005,0 -84.42304670999994,33.73340912100008,0 -84.42318185599999,33.73341926000006,0 -84.42324418599998,33.73340871100004,0 -84.42326920799997,33.73338027100004,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00011">
+			<name>Northeast Trail - Central</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Northeast Trail - Central</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Northeast Trail - Central</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Construction</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>3193</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>0.60474</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>0.6</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td>Estimated 2020</td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td>2010</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>3611.558951</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>3193.029611</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle0111</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.37270992799995,33.79854814400005,0 -84.37295245899998,33.79897340000008,0 -84.37377162699994,33.80040970200002,0 -84.37416012899996,33.80109087000005,0 -84.37417497999996,33.80111400000004,0 -84.37460238599994,33.80177966800005,0 -84.37553697799996,33.80338325900004,0 -84.37652901899997,33.80510634200004,0 -84.37663320299998,33.80529989700005,0 -84.37703992099995,33.80607031700004,0 -84.37719341999997,33.80647887700007,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00012">
+			<name>Bill Kennedy Way</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Bill Kennedy Way</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Bill Kennedy Way</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Completed</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>1082</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>0.204855</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>0.2</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td>2019</td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>1081.632719</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>1081.632719</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle00</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.35822771599999,33.74371100900004,0 -84.35823022699998,33.74420223800007,0 -84.35814556399998,33.74668259400005,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00013">
+			<name>Northeast Trail - Central</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Northeast Trail - Central</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Northeast Trail - Central</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Design</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>1866</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>0.353445</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>0.4</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td>2010</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>1866.191194</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>1866.191194</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle014</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.37033708599995,33.79383208700006,0 -84.37036483399999,33.79403628400007,0 -84.37049690999999,33.79433053900004,0 -84.37073705499995,33.79495919300007,0 -84.37088754099995,33.79524173700003,0 -84.37104711399996,33.79554133700003,0 -84.37139386399997,33.79618515200008,0 -84.37192995299995,33.79718049500008,0 -84.37270992799995,33.79854814400005,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00014">
+			<name>Eastside Trail Extension</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Eastside Trail Extension</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Eastside Trail Extension</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Completed</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>6631</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>1.255863</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>1.3</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td>2019</td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>6630.954761</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>6630.954761</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle00</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.36172198499997,33.75263504900005,0 -84.36172140899998,33.75263520400006,0 -84.36172145099994,33.75263528400006,0 -84.36172150799996,33.75263535700003,0 -84.36172158099998,33.75263542100004,0 -84.36172166499995,33.75263547300005,0 -84.36172175799999,33.75263551300003,0 -84.36172185899994,33.75263553800005,0 -84.36172197599996,33.75263554800006,0 -84.36172209499995,33.75263554000003,0 -84.36172219499997,33.75263551600005,0 -84.36172228999999,33.75263547800006,0 -84.36172237499994,33.75263542800008,0 -84.36172244999995,33.75263536500006,0 -84.36172250899995,33.75263529300003,0 -84.36172255299994,33.75263521400007,0 -84.36172257999993,33.75263513000004,0 -84.36172258899995,33.75263504200007,0 -84.36172257899995,33.75263495500008,0 -84.36176240199995,33.75262537300006,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.36172198499997,33.75263504900005,0 -84.36172256299994,33.75263490400005,0 -84.36183024199994,33.75260914500006,0 -84.36190819599994,33.75259049800007,0 -84.36190969099994,33.75259015300003,0 -84.36190966899994,33.75259007900007,0 -84.36190966199996,33.75258999100004,0 -84.36190967399995,33.75258990500004,0 -84.36190970299998,33.75258982000003,0 -84.36190974899995,33.75258974100007,0 -84.36190980999999,33.75258967100007,0 -84.36190988599998,33.75258960900004,0 -84.36190997299997,33.75258956100004,0 -84.36191006799999,33.75258952400003,0 -84.36191017099998,33.75258950300002,0 -84.36191027499996,33.75258949600004,0 -84.36191037899994,33.75258950500006,0 -84.36191047999995,33.75258952800004,0 -84.36191057399998,33.75258956600004,0 -84.36191066099997,33.75258961600008,0 -84.36191073399993,33.75258967800005,0 -84.36191079399998,33.75258975100007,0 -84.36191083799997,33.75258983000003,0 -84.36191084799998,33.75258986000006,0 -84.36191317599997,33.75258929300003,0 -84.36198827799996,33.75257099300006,0 -84.36206546099999,33.75255218500007,0 -84.36221307499994,33.75251332300007,0 -84.36301300099996,33.75232367600006,0 -84.36337688699996,33.75223869200005,0 -84.36394164199999,33.75355386800004,0 -84.36439568299994,33.75346472900003,0 -84.36473144299998,33.75338715900006,0 -84.36496851099997,33.75335926800005,0 -84.36507391599997,33.75336460100004,0 -84.36518599599998,33.75340843800006,0 -84.36528496599999,33.75347980800007,0 -84.36533121399998,33.75354025800004,0 -84.36533802899999,33.75363928600007,0 -84.36531852199994,33.75374936100008,0 -84.36532528699996,33.75382638100007,0 -84.36545742099997,33.75399673700008,0 -84.36551703399994,33.75413969700003,0 -84.36555674699997,33.75422216600003,0 -84.36556698299995,33.75433701900005,0 -84.36556909799998,33.75436073800006,0 -84.36555319099995,33.75453513600007,0 -84.36528820099994,33.75560904200006,0 -84.36516249799996,33.75626314100003,0 -84.36504019699998,33.75697989900004,0 -84.36492382399996,33.75743781400007,0 -84.36487004499998,33.75762185800005,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.35828884699998,33.74666821400007,0 -84.35829701999995,33.74667320600003,0 -84.35828988699996,33.74672314400004,0 -84.35828100699996,33.74680183000004,0 -84.35827387299997,33.74685176700007,0 -84.35825252099994,33.74702276100004,0 -84.35819725799996,33.74741923400006,0 -84.35819014599997,33.74747824900004,0 -84.35817224599998,33.74757359100005,0 -84.35815790299995,33.74763867000007,0 -84.35812203699999,33.74779909600005,0 -84.35807983599994,33.74796104400008,0 -84.35801020199995,33.74820700300006,0 -84.35795435499995,33.74841500100007,0 -84.35779849099998,33.74890403400008,0 -84.35760790099994,33.74953068100007,0 -84.35749642199994,33.74989698100006,0 -84.35739479399996,33.75023063000003,0 -84.35738853699996,33.75025117300004,0 -84.35729329299994,33.75058870200007,0 -84.35722876599993,33.75089290100004,0 -84.35718756999995,33.75110174800005,0 -84.35716438699995,33.75126518000008,0 -84.35713595399994,33.75151183100007,0 -84.35711309299995,33.75182201600006,0 -84.35707446399994,33.75255290800004,0 -84.35707310899994,33.75257854100005,0 -84.35761650899997,33.75259737000005,0 -84.35826675799996,33.75260997800007,0 -84.35911986599996,33.75262529400004,0 -84.36015448099994,33.75265017800007,0 -84.36029347699997,33.75264956100006,0 -84.36037598199994,33.75265389300006,0 -84.36044187099998,33.75265874800004,0 -84.36059917099999,33.75266940700004,0 -84.36096422299994,33.75269312500006,0 -84.36108412599998,33.75270086900008,0 -84.36113338899997,33.75270227800007,0 -84.36119392399996,33.75270119100003,0 -84.36125208399994,33.75270010800006,0 -84.36126454299995,33.75269860100008,0 -84.36137669799996,33.75269148400002,0 -84.36141348899997,33.75268894700002,0 -84.36152681199997,33.75267389600003,0 -84.36156537399995,33.75266739000006,0 -84.36166820999995,33.75264602300007,0 -84.36167157599994,33.75264533600006,0 -84.36169453099996,33.75264064800007,0 -84.36172198499997,33.75263504900005,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00015">
+			<name>Southside Trail - West</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Southside Trail - West</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Southside Trail - West</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Construction</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>4259</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>0.806596</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>0.8</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td>Estimated 2020</td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td>2019</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>4258.827141</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>4258.827141</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle01100</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.41168712099994,33.72227434300004,0 -84.41152965499998,33.72201954200006,0 -84.41143647499996,33.72189356300004,0 -84.41133351899998,33.72177375900003,0 -84.41121888899994,33.72163556700008,0 -84.41104292499995,33.72144414000007,0 -84.41038657299998,33.72106735100004,0 -84.41014972199997,33.72098953300008,0 -84.40961542099996,33.72079268100003,0 -84.40896804599998,33.72062169500003,0 -84.40842276599994,33.72051645500005,0 -84.40784445599996,33.72044786900005,0 -84.40686962099994,33.72042059400007,0 -84.40510958099998,33.72036340900007,0 -84.40357848399998,33.72031788900006,0 -84.40206390499998,33.72025403200007,0 -84.40034213099995,33.72022035800006,0 -84.39885509599998,33.72014729200004,0 -84.39849695799995,33.72008860900007,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00016">
+			<name>Northwest Trail - Marietta Blvd - W Marietta St to Huff Rd</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Northwest Trail - Marietta Blvd - W Marietta St to Huff Rd</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Northwest Trail - Marietta Blvd - W Marietta St to Huff Rd</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Design</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>ABI/PATH</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>816</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>0.154485</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>0.2</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>806.015303</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>815.678801</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle016</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42805316699997,33.78627697600007,0 -84.42805961199997,33.78642919800006,0 -84.42804714299996,33.78645858500005,0 -84.42800709599999,33.78650480900006,0 -84.42797715299997,33.78656988700004,0 -84.42796973299994,33.78660765300003,0 -84.42796347599995,33.78667330100006,0 -84.42814394799996,33.78762553500007,0 -84.42822807099998,33.78809049400007,0 -84.42828725599998,33.78835441900003,0 -84.42831995799997,33.78847583700008,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00017">
+			<name>Northwest Trail - Marietta Blvd to West Marietta St</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Northwest Trail - Marietta Blvd to West Marietta St</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Northwest Trail - Marietta Blvd to West Marietta St</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Design</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>ABI/PATH</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>4389</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>0.831294</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>0.8</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>4389.234436</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle0113</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42612683499993,33.77573407300002,0 -84.42612737299999,33.77572875700002,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42859429399994,33.77972702600005,0 -84.42778360899996,33.77908306400008,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42865640099996,33.77975393700007,0 -84.42865113099998,33.77975287300006,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42880114299999,33.77984961000004,0 -84.42871323699995,33.77977978400003,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42883640799994,33.77990000400007,0 -84.42883490699995,33.77989575100003,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42898137499998,33.78003198300007,0 -84.42887148299997,33.77994717100006,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42981100599997,33.78200494000004,0 -84.42981643999997,33.78165451600006,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42850347999996,33.78413524600006,0 -84.42913917899995,33.78350529300008,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42818995799996,33.78452268300003,0 -84.42825874599998,33.78442457900007,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42788972699998,33.78579234500006,0 -84.42787688599998,33.78563444700006,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42795498999999,33.78591860400007,0 -84.42791715899995,33.78586565400008,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42798470499997,33.78605349800006,0 -84.42798279299996,33.78599831600008,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42798661599994,33.78610867900005,0 -84.42798470499997,33.78605349800006,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42804097899995,33.78621557100007,0 -84.42803884999995,33.78621369200005,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42805316699997,33.78627697600007,0 -84.42805179399994,33.78623753900007,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42615920999998,33.77650530500006,0 -84.42614473999998,33.77642021200006,0 -84.42613297699995,33.77633482900006,0 -84.42612392699994,33.77624921600005,0 -84.42611759599998,33.77616343200003,0 -84.42611399099997,33.77607754000007,0 -84.42611311199994,33.77599159600004,0 -84.42611496199999,33.77590566400005,0 -84.42611953699998,33.77581980300005,0 -84.42612683499993,33.77573407300002,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42778360899996,33.77908306400008,0 -84.42750784699996,33.77884755000008,0 -84.42725322199999,33.77859598700007,0 -84.42702106799999,33.77832969500002,0 -84.42681260199998,33.77805007100005,0 -84.42662891699996,33.77775858200005,0 -84.42647097799994,33.77745675500006,0 -84.42633961199994,33.77714617400005,0 -84.42623550699994,33.77682846900007,0 -84.42615920999998,33.77650530500006,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42865113099998,33.77975287300006,0 -84.42864411399995,33.77975127700006,0 -84.42863721999998,33.77974934200006,0 -84.42863047199995,33.77974707600004,0 -84.42862389399994,33.77974448600003,0 -84.42861750699996,33.77974158200004,0 -84.42861133299994,33.77973837300004,0 -84.42860539199995,33.77973486800005,0 -84.42859970699999,33.77973108200007,0 -84.42859429399994,33.77972702600005,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42871323699995,33.77977978400003,0 -84.42870782499995,33.77977572800006,0 -84.42870213799995,33.77977194100004,0 -84.42869619799995,33.77976843800008,0 -84.42869002399993,33.77976522800003,0 -84.42868363699995,33.77976232300006,0 -84.42867705899994,33.77975973400004,0 -84.42867031099996,33.77975746800007,0 -84.42866341799999,33.77975553300007,0 -84.42865640099996,33.77975393700007,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42883490699995,33.77989575100003,0 -84.42883264799997,33.77988997500006,0 -84.42882998999994,33.77988431800003,0 -84.42882694199994,33.77987880000006,0 -84.42882351599997,33.77987344000007,0 -84.42881972099997,33.77986825500005,0 -84.42881557199996,33.77986326300004,0 -84.42881108199998,33.77985848000003,0 -84.42880626799996,33.77985392500005,0 -84.42880114299999,33.77984961000004,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42887148299997,33.77994717100006,0 -84.42886614599996,33.77994279800004,0 -84.42886113299994,33.77993816700007,0 -84.42885645899997,33.77993329500003,0 -84.42885214299997,33.77992819700006,0 -84.42884819799997,33.77992289400004,0 -84.42884464099996,33.77991740200002,0 -84.42884148299999,33.77991174400006,0 -84.42883873599999,33.77990593800007,0 -84.42883640799994,33.77990000400007,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42981643999997,33.78165451600006,0 -84.42980831499995,33.78145262100003,0 -84.42977775299994,33.78125222900007,0 -84.42972501899999,33.78105507700008,0 -84.42965056899999,33.78086287100007,0 -84.42955504899999,33.78067727600006,0 -84.42943928399995,33.78049989700003,0 -84.42930427799996,33.78033227100008,0 -84.42915119999998,33.78017584800006,0 -84.42898137499998,33.78003198300007,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42913917899995,33.78350529300008,0 -84.42927491099994,33.78336324100007,0 -84.42939681099995,33.78321269600008,0 -84.42950411999999,33.78305459700005,0 -84.42959616999997,33.78288992700004,0 -84.42967238999995,33.78271971000004,0 -84.42973230299998,33.78254500500003,0 -84.42977553899999,33.78236690100005,0 -84.42980182699995,33.78218650500003,0 -84.42981100599997,33.78200494000004,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42825874599998,33.78442457900007,0 -84.42828297499995,33.78439076300003,0 -84.42830796599998,33.78435733700007,0 -84.42833371199998,33.78432431200002,0 -84.42836020199996,33.78429170100003,0 -84.42838742699996,33.78425951400004,0 -84.42841537799995,33.78422776400004,0 -84.42844404399995,33.78419646200007,0 -84.42847341399994,33.78416561900008,0 -84.42850347999996,33.78413524600006,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42787688599998,33.78563444700006,0 -84.42787155099995,33.78550574300004,0 -84.42787645099997,33.78537702500006,0 -84.42789156899994,33.78524886400004,0 -84.42791683299998,33.78512182200006,0 -84.42795213499994,33.78499645800008,0 -84.42799731999997,33.78487332700007,0 -84.42805218599995,33.78475297000006,0 -84.42811649299995,33.78463591700006,0 -84.42818995799996,33.78452268300003,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42791715899995,33.78586565400008,0 -84.42791210799999,33.78585814500008,0 -84.42790753299994,33.78585042700007,0 -84.42790344799994,33.78584252000007,0 -84.42789986199995,33.78583444500003,0 -84.42789678599996,33.78582622500005,0 -84.42789422799996,33.78581788200006,0 -84.42789219599996,33.78580943900005,0 -84.42789069399998,33.78580091900005,0 -84.42788972699998,33.78579234500006,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42798279299996,33.78599831600008,0 -84.42798215499994,33.78598900700007,0 -84.42798088699999,33.78597974400003,0 -84.42797899499999,33.78597055400007,0 -84.42797648299995,33.78596146900003,0 -84.42797336099994,33.78595251700006,0 -84.42796963799998,33.78594372700007,0 -84.42796532499995,33.78593512700007,0 -84.42796043699997,33.78592674300006,0 -84.42795498999999,33.78591860400007,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42803884999995,33.78621369200005,0 -84.42802867599994,33.78620396400004,0 -84.42801947799995,33.78619358100008,0 -84.42801131799996,33.78618260900004,0 -84.42800424799998,33.78617112100005,0 -84.42799831499997,33.78615919300006,0 -84.42799355799997,33.78614690300003,0 -84.42799000799994,33.78613433300006,0 -84.42798768999995,33.78612156300005,0 -84.42798661599994,33.78610867900005,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42805179399994,33.78623753900007,0 -84.42805159199997,33.78623484500002,0 -84.42805112699995,33.78623217500007,0 -84.42805040199994,33.78622954400004,0 -84.42804942099997,33.78622697200007,0 -84.42804819299994,33.78622447500004,0 -84.42804672299997,33.78622207200004,0 -84.42804502399997,33.78621977600005,0 -84.42804310499997,33.78621760400006,0 -84.42804097899995,33.78621557100007,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00018">
+			<name>Northwest Trail - Marietta Connector</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Northwest Trail - Marietta Connector</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Northwest Trail - Marietta Connector</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Design</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>ABI/PATH</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>1337</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>0.253288</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>0.3</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>1150.441073</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>1337.359601</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle018</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.42612737199994,33.77572875700002,0 -84.42613089799994,33.77570922900003,0 -84.42613744199997,33.77569025200006,0 -84.42614689299995,33.77567214800007,0 -84.42615908899995,33.77565522800006,0 -84.42617382399999,33.77563978000006,0 -84.42619084399996,33.77562606900005,0 -84.42620985899998,33.77561432800007,0 -84.42623054499995,33.77560475700005,0 -84.42625254899997,33.77559752000008,0 -84.42625586399998,33.77559663300008,0 -84.42630353199996,33.77558035800007,0 -84.42634757499997,33.77555807200002,0 -84.42638691499997,33.77553032000003,0 -84.42642058899997,33.77549778300005,0 -84.42644777299995,33.77546125800006,0 -84.42646780099994,33.77542163900006,0 -84.42648018199998,33.77537989500007,0 -84.42648461399995,33.77533704900003,0 -84.42648098699993,33.77529415100003,0 -84.42644491799996,33.77509322500003,0 -84.42642296999998,33.77497096300004,0 -84.42641924599997,33.77495390900003,0 -84.42641424299995,33.77493708300005,0 -84.42640797799999,33.77492055500005,0 -84.42640047899994,33.77490439000007,0 -84.42639177399997,33.77488865200007,0 -84.42638189799999,33.77487340300007,0 -84.42637088999999,33.77485870500004,0 -84.42635879499994,33.77484461600005,0 -84.42634565999998,33.77483119100003,0 -84.42632866199995,33.77481489600007,0 -84.42631396499996,33.77480085700006,0 -84.42629247499997,33.77478070000006,0 -84.42627055199995,33.77476087100007,0 -84.42624820399999,33.77474137700005,0 -84.42622543699997,33.77472222200004,0 -84.42620225899998,33.77470341600008,0 -84.42617867699994,33.77468496200004,0 -84.42615469999998,33.77466686700006,0 -84.42613033399994,33.77464913800003,0 -84.42610558899997,33.77463177900006,0 -84.42598066299996,33.77454573900008,0 -84.42595372999995,33.77452791500008,0 -84.42592598699997,33.77451098100005,0 -84.42589747499994,33.77449496200006,0 -84.42586823699997,33.77447988300003,0 -84.42583831899998,33.77446576600005,0 -84.42580776399996,33.77445263400006,0 -84.42577661999997,33.77444050500003,0 -84.42574493399997,33.77442939800005,0 -84.42571275399996,33.77441933100005,0 -84.42567238299995,33.77440744600005,0 -84.42559467899997,33.77438656100003,0 -84.42551571399997,33.77436928300006,0 -84.42543573099994,33.77435566500003,0 -84.42535496999994,33.77434574800003,0 -84.42527367699995,33.77433956300007,0 -84.42519209999995,33.77433712700002,0 -84.42511048699998,33.77433844800004,0 -84.42502908399996,33.77434352300003,0 -84.42494813899998,33.77435233600005,0 -84.42486724399998,33.77436304500003,0 -84.42424472199997,33.77444545100008,0 -84.42416135699995,33.77445650000004,0 -84.42398279999998,33.77447499300007,0 -84.42391858999997,33.77447811700006,0 -84.42385443699999,33.77447424200005,0 -84.42379143299996,33.77446343500003,0 -84.42373064699996,33.77444587800005,0 -84.42367310999998,33.77442187000003,0 -84.42361979899994,33.77439181900007,0 -84.42357161999996,33.77435623400004,0 -84.42352938999994,33.77431571900007,0 -84.42349382699996,33.77427096300005,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00019">
+			<name>Northeast Trail - North</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Northeast Trail - North</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Northeast Trail - North</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Design</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>7627</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>1.444577</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>1.4</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>6445.95211</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>7627.368517</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle014</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.37773389799997,33.81529979400005,0 -84.37775843599997,33.81287542600006,0 -84.37777343199997,33.81277359200004,0 -84.37779612899999,33.81270355900006,0 -84.37784936399999,33.81265256400008,0 -84.37793313799995,33.81262060500006,0 -84.37804741899998,33.81259495700004,0 -84.37819222199994,33.81258198200004,0 -84.37907649199997,33.81258682600003,0 -84.37916031299994,33.81257395600005,0 -84.37922123299995,33.81254839800005,0 -84.38161051999998,33.81082623200007,0 -84.38604636599996,33.80760507600007,0 -84.38613764099995,33.80752855700007,0 -84.38617554199999,33.80744576900003,0 -84.38617534699995,33.80736941300006,0 -84.38617510299997,33.80727396800006,0 -84.38612907599997,33.80715951400003,0 -84.38439458599998,33.80550182800005,0 -84.38431816899998,33.80542560600003,0 -84.38418849499999,33.80538765600005,0 -84.38407411299994,33.80536876800005,0 -84.38395230199995,33.80542625100003,0 -84.38138046399996,33.80722513900002,0 -84.38092310399998,33.80721957100008,0 -84.38014547599994,33.80716365200004,0 -84.37939583499997,33.80716263700003,0 -84.37899439699999,33.80714099200003,0 -84.37873121399997,33.80711910600007,0 -84.37838767099998,33.80706385200006,0 -84.37824039799995,33.80702315200006,0 -84.37804390999997,33.80691924500007,0 -84.37760456799998,33.80665995200008,0 -84.37719341999997,33.80647887700007,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00020">
+			<name>Lindbergh Connector</name>
+			<snippet></snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Lindbergh Connector</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Name/Description</td>
+
+<td>Lindbergh Connector</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Status</td>
+
+<td>Design</td>
+
+</tr>
+
+<tr>
+
+<td>Implementer</td>
+
+<td>Atlanta Beltline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Type</td>
+
+<td>Main</td>
+
+</tr>
+
+<tr>
+
+<td>FT</td>
+
+<td>5192</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>MILES</td>
+
+<td>0.983413</td>
+
+</tr>
+
+<tr>
+
+<td>Distribute</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Interim Trail</td>
+
+<td>N</td>
+
+</tr>
+
+<tr>
+
+<td>TrailOnly</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>On Street</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>SWC</td>
+
+<td>N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Miles</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>ABI_Includ</td>
+
+<td>Y</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Year (Complete)</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>Year (Interim)</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape_Leng</td>
+
+<td>5120.228528</td>
+
+</tr>
+
+<tr>
+
+<td>Alt</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Shape__Length</td>
+
+<td>5192.418774</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body><script type="text/javascript">
+
+				function changeImage(attElement, nameElement) {
+
+				document.getElementById('imageAttachment').src = attElement;
+
+				document.getElementById('imageName').innerHTML = nameElement;}
+
+			</script></html>]]></description>
+			<styleUrl>#LineStyle014</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-84.36974849099994,33.82249662200007,0 -84.36979054799997,33.82206510600003,0 -84.37009213099998,33.82208258600008,0 -84.37034786699996,33.82093164000003,0 -84.37060551599996,33.82058965300007,0 -84.37071230999999,33.82021196100004,0 -84.37101209099995,33.81947441000005,0 -84.37105465399998,33.81925861600007,0 -84.37101136399997,33.81916880300003,0 -84.37079543099998,33.81893546100002,0 -84.37042847699996,33.81859450500008,0 -84.37001836699994,33.81821766700006,0 -84.36934989499997,33.81787720500006,0 -84.36906935699994,33.81764396500006,0 -84.36900423599997,33.81742834900007,0 -84.36906829799995,33.81719454400007,0 -84.36924008799997,33.81697853900005,0 -84.36951960699997,33.81678033200006,0 -84.37003582099999,33.81649185100002,0 -84.37042297799997,33.81627548900008,0 -84.37083188599996,33.81614897400004,0 -84.37134860499998,33.81607621000006,0 -84.37208065199997,33.81598510800006,0 -84.37279133199996,33.81596594500007,0 -84.37328668399994,33.81596511700008,0 -84.37416983499998,33.81601756500004,0 -84.37472992899995,33.81607055300003,0 -84.37548372799995,33.81606927900003,0 -84.37591442499996,33.81605057200005,0 -84.37638802299995,33.81595988200007,0 -84.37664624799999,33.81586955900008,0 -84.37696899499997,33.81574317000008,0 -84.37724866699995,33.81561685400004,0 -84.37761431099995,33.81541848300003,0 -84.37773389799997,33.81529979400005,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

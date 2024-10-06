@@ -11,6 +11,7 @@
     <script src="js/togeojson.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.0/jszip.min.js"></script>
 
+
     <style>
         body {
             margin: 0;
@@ -151,7 +152,10 @@
         map.on('load', () => {
 
             const files = [
-                'data/1-Development Map.kmz',
+                // 'data/BeltLine Access Points (Public Open and Interim).kml',
+                // 'data/BeltLine Trails.kml',
+                // 'data/1-Development Map.kmz',
+                'data/My Places.kml',
                 'data/ATL StreetCar.kmz',
                 'data/Future LRTBRT (Beltline Rail, Clifton Corr).kmz',
                 'data/MARTA Heavy Rail.kmz'
@@ -160,13 +164,22 @@
             Promise.all(files.map(file => fetch(file)))
                 .then(responses => Promise.all(responses.map(response => response.blob())))
                 .then(blobs => Promise.all(blobs.map(blob => {
-                    const zip = new JSZip();
-                    return zip.loadAsync(blob).then(zip => {
-                        return zip.file("doc.kml").async("string").then(data => {
+                    console.log('blob', blob);
+
+                    if (blob.type === "application/vnd.google-earth.kmz") {
+                        const zip = new JSZip();
+                        return zip.loadAsync(blob).then(zip => {
+                            return zip.file("doc.kml").async("string").then(data => {
+                                const kml = new DOMParser().parseFromString(data, "text/xml");
+                                return toGeoJSON.kml(kml);
+                            });
+                        });
+                    } else {
+                        return blob.text().then(data => {
                             const kml = new DOMParser().parseFromString(data, "text/xml");
                             return toGeoJSON.kml(kml);
                         });
-                    });
+                    }
                 })))
                 .then(geojsons => {
 
@@ -351,20 +364,33 @@
                 map.setFilter('points-hovered', ['==', 'name', e.features[0].properties.name]);
             });
 
-
-            //create a popup with all properties for all layers on click
-            map.on('click', function (e) {
+            function showInfo(e) {
                 const features = map.queryRenderedFeatures(e.point);
-                console.log('features', features);
-                const html = features.map(feature => {
-                    return `<h3>${feature.properties.name}</h3>
-                    <div>${feature.properties.description}</div>`
-                }).join('');
+                //remove douplicates from features
+                const uniqueFeatures = features.filter((v, i, a) => a.findIndex(t => (t.properties.name === v.properties.name)) === i)
+                console.log('uniqueFeatures', uniqueFeatures);
+
+                const html = uniqueFeatures
+                    .filter(feature => feature.properties.name)
+                    .map(feature => {
+                        descr = feature.properties.description ? feature.properties.description : ""
+                        return `<h3>${feature.properties.name}</h3>
+                                ${descr}`
+                    })[0]
+                    // .join('');
+
                 const popup = new mapboxgl.Popup()
                     .setLngLat(e.lngLat)
                     .setHTML(html)
                     .addTo(map);
-            });
+            }
+
+            //create a popup with all properties for all layers on click
+
+            map.on('click', 'polygons', showInfo);
+            map.on('click', 'lines', showInfo);
+            map.on('click', 'points', showInfo);
+
 
         });
 
