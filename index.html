@@ -229,6 +229,27 @@
             });
 
             map.addLayer({
+                id: 'polygons-hovered',
+                type: 'line',
+                source: 'geometry',
+                paint: {
+                    'line-color': "white",
+                    'line-width': 4
+                },
+
+            });
+
+            map.addLayer({
+                id: 'lines-hovered',
+                type: 'line',
+                source: 'geometry',
+                paint: {
+                    'line-color': "white",
+                    'line-width': ['+', ['get', 'stroke-width'], 8]
+                },
+            })
+
+            map.addLayer({
                 id: 'lines',
                 type: 'line',
                 source: 'geometry',
@@ -238,6 +259,7 @@
                 },
                 filter: ['==', '$type', 'LineString']
             })
+
 
             map.addLayer({
                 id: 'points',
@@ -261,6 +283,20 @@
 
                     // Add the image to the map style.
                     map.addImage('tram', image);
+
+
+                    map.addLayer({
+                        id: 'points-hovered',
+                        type: 'circle',
+                        source: 'geometry',
+                        paint: {
+                            'circle-color': "red",
+                            'circle-radius': 15,
+                        },
+                        filter: ['==', '$type', 'Point']
+                    });
+                    map.setFilter('points-hovered', ['==', 'name', '']);
+
                     map.addLayer({
                         id: 'tram-icon',
                         type: 'symbol',
@@ -276,18 +312,45 @@
                 }
             );
 
-            function pointerCursor() {
+            map.setFilter('polygons-hovered', ['==', 'name', '']);
+            map.setFilter('lines-hovered', ['==', 'name', '']);
+
+
+            function pointerCursor(e) {
                 map.getCanvas().style.cursor = 'pointer';
             }
 
             function defaultCursor() {
                 map.getCanvas().style.cursor = '';
+                map.setFilter('polygons-hovered', ['==', 'name', '']);
+                map.setFilter('lines-hovered', ['==', 'name', '']);
+                map.setFilter('points-hovered', ['==', 'name', '']);
             }
 
             map.on('mouseenter', 'polygons', pointerCursor);
             map.on('mouseleave', 'polygons', defaultCursor);
             map.on('mouseenter', 'points', pointerCursor);
             map.on('mouseleave', 'points', defaultCursor);
+            map.on('mouseenter', 'lines', pointerCursor);
+            map.on('mouseleave', 'lines', defaultCursor);
+
+
+            map.on('mousemove', 'polygons', (e) => {
+                //add hover effect over polygon 
+                const props = e.features[0].properties
+                map.setFilter('polygons-hovered', ['==', 'name', e.features[0].properties.name]);
+            });
+            map.on('mousemove', 'lines', (e) => {
+                //add hover effect over line 
+                const props = e.features[0].properties
+                map.setFilter('lines-hovered', ['==', 'name', e.features[0].properties.name]);
+            });
+            map.on('mousemove', 'points', (e) => {
+                //add hover effect over point 
+                const props = e.features[0].properties
+                map.setFilter('points-hovered', ['==', 'name', e.features[0].properties.name]);
+            });
+
 
             //create a popup with all properties for all layers on click
             map.on('click', function (e) {
