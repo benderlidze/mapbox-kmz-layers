@@ -45,19 +45,53 @@
 
         map.on('load', () => {
 
-            fetch('1-Development Map.kmz')
-                .then(response => response.blob())
-                .then(blob => {
+            const files = [
+                'data/1-Development Map.kmz',
+                'data/ATL StreetCar.kmz',
+                'data/Future LRTBRT (Beltline Rail, Clifton Corr).kmz',
+                'data/MARTA Heavy Rail.kmz'
+            ]
+
+            Promise.all(files.map(file => fetch(file)))
+                .then(responses => Promise.all(responses.map(response => response.blob())))
+                .then(blobs => Promise.all(blobs.map(blob => {
                     const zip = new JSZip();
-                    zip.loadAsync(blob).then(function (zip) {
-                        zip.file("doc.kml").async("string").then(function (data) {
+                    return zip.loadAsync(blob).then(zip => {
+                        return zip.file("doc.kml").async("string").then(data => {
                             const kml = new DOMParser().parseFromString(data, "text/xml");
-                            const geojson = toGeoJSON.kml(kml);
-                            console.log(geojson);
-                            map.getSource('geometry').setData(geojson);
+                            return toGeoJSON.kml(kml);
                         });
                     });
-                })
+                }))
+                )
+                .then(geojsons => {
+
+                    const features = geojsons.reduce((acc, geojson) => {
+                        return acc.concat(geojson.features);
+                    }, []);
+
+                    map.getSource('geometry').setData({
+                        'type': 'FeatureCollection',
+                        'features': features
+                    });
+
+                });
+
+
+            // fetch('1-Development Map.kmz')
+            //     .then(response => response.blob())
+            //     .then(blob => {
+            //         const zip = new JSZip();
+            //         zip.loadAsync(blob).then(function (zip) {
+            //             console.log('zip', zip);
+            //             zip.file("doc.kml").async("string").then(function (data) {
+            //                 const kml = new DOMParser().parseFromString(data, "text/xml");
+            //                 const geojson = toGeoJSON.kml(kml);
+            //                 console.log(geojson);
+            //                 map.getSource('geometry').setData(geojson);
+            //             });
+            //         });
+            //     })
 
             // Create GeoJSON data for a building with 10 floors
             map.addSource('geometry', {
@@ -129,8 +163,6 @@
             );
 
 
-
-
             function pointerCursor() {
                 map.getCanvas().style.cursor = 'pointer';
             }
@@ -143,10 +175,6 @@
             map.on('mouseleave', 'polygons', defaultCursor);
             map.on('mouseenter', 'points', pointerCursor);
             map.on('mouseleave', 'points', defaultCursor);
-
-
-
-
 
             //create a popup with all properties for all layers on click
             map.on('click', function (e) {
