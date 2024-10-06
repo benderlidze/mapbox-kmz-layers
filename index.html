@@ -8,7 +8,7 @@
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/togeojson/0.16.0/togeojson.min.js"></script>
+    <script src="js/togeojson.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.0/jszip.min.js"></script>
 
     <style>
@@ -27,13 +27,118 @@
         .mapboxgl-popup {
             max-width: 400px !important;
         }
+
+        #layers {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 100;
+        }
+
+
+        /* SWITCHER */
+        .switcher-div {
+            display: flex;
+            align-items: center;
+            margin: 5px;
+        }
+
+        .switcher-div>div {
+            margin-left: 5px;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 35px;
+            height: 15px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: 0.4s;
+            transition: 0.4s;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 11px;
+            width: 11px;
+            left: 3px;
+            bottom: 2px;
+            background-color: white;
+            -webkit-transition: 0.4s;
+            transition: 0.4s;
+        }
+
+        input:checked+.slider {
+            background-color: #2196f3;
+        }
+
+        input:focus+.slider {
+            box-shadow: 0 0 1px #2196f3;
+        }
+
+        input:checked+.slider:before {
+            -webkit-transform: translateX(18px);
+            -ms-transform: translateX(18px);
+            transform: translateX(18px);
+        }
+
+        .slider.round {
+            border-radius: 34px;
+        }
+
+        .slider.round:before {
+            border-radius: 50%;
+        }
+
+        .info-button {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            z-index: 1;
+            border: 5px solid black;
+            border-radius: 10px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            font-size: 25px;
+            cursor: pointer;
+        }
+
+        /* SWITCHER END */
     </style>
 </head>
 
 <body>
     <div id="map"></div>
+    <div id="layers"></div>
     <script>
-
+        const appData = {
+            features: null,
+            selectedLayers: []
+        }
+        const layersDiv = document.getElementById('layers')
         mapboxgl.accessToken = 'pk.eyJ1Ijoic2VyaHV6IiwiYSI6ImNseXpvc3RlczJpbnIya3FscDU2aHc5d3EifQ.FHtPjde_lqensSHZxqthgw';
         const map = new mapboxgl.Map({
             container: 'map',
@@ -62,36 +167,46 @@
                             return toGeoJSON.kml(kml);
                         });
                     });
-                }))
-                )
+                })))
                 .then(geojsons => {
+
+                    console.log('geojsons', geojsons);
 
                     const features = geojsons.reduce((acc, geojson) => {
                         return acc.concat(geojson.features);
                     }, []);
+
+                    const layerNames = [...new Set(features.map(f => f.properties.layerName))]
+                    console.log('layerNames', layerNames);
+
+                    layerNames.forEach(layer => {
+                        appData.selectedLayers.push({
+                            layer,
+                            visibility: true
+                        })
+
+                        const property = buildSwitcher({
+                            labelText: layer,
+                            action: checked => {
+                                const display = checked ? "visible" : "none"
+                                const selLayer = appData.selectedLayers.find(l => l.layer === layer)
+                                selLayer.visibility = checked
+
+                                updateLayersVisibility()
+                            },
+                            checked: true
+                        })
+                        layersDiv.appendChild(property.nodeElement);
+                    })
 
                     map.getSource('geometry').setData({
                         'type': 'FeatureCollection',
                         'features': features
                     });
 
+                    appData.features = features
                 });
 
-
-            // fetch('1-Development Map.kmz')
-            //     .then(response => response.blob())
-            //     .then(blob => {
-            //         const zip = new JSZip();
-            //         zip.loadAsync(blob).then(function (zip) {
-            //             console.log('zip', zip);
-            //             zip.file("doc.kml").async("string").then(function (data) {
-            //                 const kml = new DOMParser().parseFromString(data, "text/xml");
-            //                 const geojson = toGeoJSON.kml(kml);
-            //                 console.log(geojson);
-            //                 map.getSource('geometry').setData(geojson);
-            //             });
-            //         });
-            //     })
 
             // Create GeoJSON data for a building with 10 floors
             map.addSource('geometry', {
@@ -156,12 +271,10 @@
                             'icon-allow-overlap': true
                         },
                         filter: ['==', '$type', 'Point']
-
                     });
 
                 }
             );
-
 
             function pointerCursor() {
                 map.getCanvas().style.cursor = 'pointer';
@@ -190,8 +303,87 @@
                     .addTo(map);
             });
 
-
         });
+
+        function updateLayersVisibility() {
+
+
+            const visibleLayers = appData.selectedLayers.filter(l => l.visibility).map(l => l.layer)
+            console.log('visibleLayers', visibleLayers);
+
+            const features = appData.features.filter(f => visibleLayers.includes(f.properties.layerName))
+
+            map.getSource('geometry').setData({
+                'type': 'FeatureCollection',
+                'features': features
+            });
+
+
+        }
+
+
+        function buildSwitcher({ labelText, action, colorCircle = false, checked = true }) {
+
+            const div = document.createElement("div")
+            div.className = "switcher-div"
+            div.style.cursor = "pointer"
+
+            const label = document.createElement("label")
+            label.className = "switch"
+
+            const checkbox = document.createElement("input")
+            checkbox.type = "checkbox"
+            checkbox.checked = checked
+
+            // checkbox.addEventListener("input", () => {
+            //     if (typeof action === "function") {
+            //         action(checkbox.checked)
+            //     }
+            // })
+
+            div.addEventListener("click", () => {
+                checkbox.checked = !checkbox.checked
+                if (typeof action === "function") {
+                    action(checkbox.checked)
+                }
+            })
+
+            function turnOn() {
+                checkbox.checked = true
+                if (typeof action === "function") {
+                    action(checkbox.checked)
+                }
+            }
+
+            function turnOff() {
+                checkbox.checked = false
+                if (typeof action === "function") {
+                    action(checkbox.checked)
+                }
+            }
+
+            const color = document.createElement("div")
+            color.style.width = "10px"
+            color.style.height = "10px"
+            color.style.backgroundColor = colorCircle
+            color.style.borderRadius = "10px"
+            color.style.border = "1px solid #2196f3"
+
+            const span = document.createElement("span")
+            span.className = "slider round"
+
+            const text = document.createElement("div")
+            text.innerText = labelText
+
+            label.appendChild(checkbox)
+            label.appendChild(span)
+
+            div.appendChild(label)
+            if (colorCircle) div.appendChild(color)
+            div.appendChild(text)
+
+            return { nodeElement: div, turnOn, turnOff }
+        }
     </script>
 
 </body>
