@@ -140,7 +140,389 @@
     <div id="map"></div>
     <div id="layers"></div>
     <script>
-        const _0x50d51b=_0x1ad1;(function(_0xf9620d,_0x4be67d){const _0x1f6b52=_0x1ad1,_0x5b12f8=_0xf9620d();while(!![]){try{const _0x52b921=-parseInt(_0x1f6b52(0x16b))/0x1*(-parseInt(_0x1f6b52(0x1db))/0x2)+parseInt(_0x1f6b52(0x1b1))/0x3*(-parseInt(_0x1f6b52(0x189))/0x4)+parseInt(_0x1f6b52(0x1c1))/0x5+parseInt(_0x1f6b52(0x197))/0x6+-parseInt(_0x1f6b52(0x184))/0x7*(parseInt(_0x1f6b52(0x1a7))/0x8)+parseInt(_0x1f6b52(0x196))/0x9+parseInt(_0x1f6b52(0x19e))/0xa;if(_0x52b921===_0x4be67d)break;else _0x5b12f8['push'](_0x5b12f8['shift']());}catch(_0x2e2c01){_0x5b12f8['push'](_0x5b12f8['shift']());}}}(_0x2f4f,0xc5e3d));function _0x1ad1(_0x3aad02,_0x137a6b){const _0x2f4fe0=_0x2f4f();return _0x1ad1=function(_0x1ad180,_0x413461){_0x1ad180=_0x1ad180-0x158;let _0x4a9834=_0x2f4fe0[_0x1ad180];return _0x4a9834;},_0x1ad1(_0x3aad02,_0x137a6b);}const appData={'features':null,'selectedLayers':[]},layersDiv=document['getElementById'](_0x50d51b(0x169));function _0x2f4f(){const _0x453870=['red','593338EAaDcI','uniqueFeatures','includes','styleColor','doc.kml','polygons','filter','name','get','text','Layer0_Symbol_f34c9f00_0.png','className','queryRenderedFeatures','forEach','concat','FeatureCollection','#42c000','setHTML','circle','switch','white','style','Polygon','findIndex','application/vnd.google-earth.kmz','4316179lLNJsN','iconName','setLngLat','log','points','983068KMNdFq','pk.eyJ1IjoiY29qbyIsImEiOiJjbTFndHU1ZjMwN3owMmlxMXRlejlrMm9oIn0.ezRZvJl1XpcOF1Eqhc2iCg','switcher-div','images/marta-station.png','noicon','type','width','mapbox://styles/mapbox/light-v11','setFilter','kml','map','properties','lines','3620718TLMhpz','1016946wDaLlO','tram-icon','selectedLayers','span','label','slider\x20round','line','2728480evXvvO','!has','addTo','icon','then','polygons-hovered','geometry','loadImage','addLayer','8bTrUQT','symbol','div','f.properties','file','all','parseFromString','load','mouseenter','mousemove','9ApNrPQ','Map','backgroundColor','geojsons','addImage','images/marta-stop.png','innerText','lines-hovered','getCanvas','stroke-width','Layer0_Symbol_','description','_color','fill','visible','LineString','665690pltMVQ','blob','addControl','$type','layerName','size','setData','mouseleave','accessToken','data/ATL\x20StreetCar.kmz','input','lngLat','createElement','data/Future\x20LRTBRT\x20(Beltline\x20Rail,\x20Clifton\x20Corr).kmz','normal','Popup','visibleLayers','push','points-hovered','10px','layer','styleMapHash','appendChild','borderRadius','mstop','mstation','4NuEMHd','function','stroke','data/MARTA\x20Heavy\x20Rail.kmz','layerNames','checked','checkbox','pointer','features','async','click','find','geojson','cursor','Point','tram','visibility','Marta\x20Stop','string','layers'];_0x2f4f=function(){return _0x453870;};return _0x2f4f();}mapboxgl[_0x50d51b(0x1c9)]=_0x50d51b(0x18a);const map=new mapboxgl[(_0x50d51b(0x1b2))]({'container':'map','style':_0x50d51b(0x190),'center':{'lng':-84.41437509399084,'lat':33.78968701476805},'zoom':0x9});map[_0x50d51b(0x1c3)](new MapboxGeocoder({'accessToken':mapboxgl['accessToken'],'mapboxgl':mapboxgl})),map['on'](_0x50d51b(0x1ae),()=>{const _0x1d7cf1=_0x50d51b,_0x485212=['data/My\x20Places.kml',_0x1d7cf1(0x1ca),_0x1d7cf1(0x1ce),_0x1d7cf1(0x159)];Promise[_0x1d7cf1(0x1ac)](_0x485212[_0x1d7cf1(0x193)](_0x31ac86=>fetch(_0x31ac86)))[_0x1d7cf1(0x1a2)](_0x142d17=>Promise[_0x1d7cf1(0x1ac)](_0x142d17[_0x1d7cf1(0x193)](_0x511384=>_0x511384[_0x1d7cf1(0x1c2)]())))[_0x1d7cf1(0x1a2)](_0x16658b=>Promise[_0x1d7cf1(0x1ac)](_0x16658b[_0x1d7cf1(0x193)](_0x1dcc92=>{const _0x1ee0cb=_0x1d7cf1;console[_0x1ee0cb(0x187)](_0x1ee0cb(0x1c2),_0x1dcc92);if(_0x1dcc92[_0x1ee0cb(0x18e)]===_0x1ee0cb(0x183)){const _0xb712bf=new JSZip();return _0xb712bf['loadAsync'](_0x1dcc92)[_0x1ee0cb(0x1a2)](_0x3e946f=>{const _0x38a8cc=_0x1ee0cb;return _0x3e946f[_0x38a8cc(0x1ab)](_0x38a8cc(0x16f))[_0x38a8cc(0x15f)](_0x38a8cc(0x168))[_0x38a8cc(0x1a2)](_0x185606=>{const _0x4d855a=_0x38a8cc,_0x32e6ae=new DOMParser()['parseFromString'](_0x185606,'text/xml');return toGeoJSON[_0x4d855a(0x192)](_0x32e6ae);});});}else return _0x1dcc92[_0x1ee0cb(0x174)]()[_0x1ee0cb(0x1a2)](_0x51efec=>{const _0x13bb21=_0x1ee0cb,_0xa57a86=new DOMParser()[_0x13bb21(0x1ad)](_0x51efec,'text/xml');return toGeoJSON[_0x13bb21(0x192)](_0xa57a86);});})))[_0x1d7cf1(0x1a2)](_0x213aa3=>{const _0x452237=_0x1d7cf1;console[_0x452237(0x187)](_0x452237(0x1b4),_0x213aa3);const _0x5046d5=_0x213aa3['reduce']((_0x5ea484,_0x4a3dc0)=>{const _0x256a72=_0x452237;return _0x5ea484[_0x256a72(0x179)](_0x4a3dc0[_0x256a72(0x15e)]);},[]),_0x34e23f=[...new Set(_0x5046d5[_0x452237(0x193)](_0x2fde02=>_0x2fde02[_0x452237(0x194)][_0x452237(0x1c5)]))];console[_0x452237(0x187)](_0x452237(0x15a),_0x34e23f),_0x34e23f['forEach'](_0x1d988b=>{const _0x250d0d=_0x452237;appData[_0x250d0d(0x199)][_0x250d0d(0x1d2)]({'layer':_0x1d988b,'visibility':!![]});const _0xf11b54=buildSwitcher({'labelText':_0x1d988b,'action':_0x773fd1=>{const _0x3117ab=_0x250d0d,_0x2fd93a=_0x773fd1?_0x3117ab(0x1bf):'none',_0x4dd51e=appData[_0x3117ab(0x199)][_0x3117ab(0x161)](_0x33288d=>_0x33288d['layer']===_0x1d988b);_0x4dd51e[_0x3117ab(0x166)]=_0x773fd1,updateLayersVisibility();},'checked':!![]});layersDiv[_0x250d0d(0x1d7)](_0xf11b54['nodeElement']);}),console[_0x452237(0x187)](_0x452237(0x15e),_0x5046d5),_0x5046d5[_0x452237(0x178)](_0x19e62d=>{const _0xc26336=_0x452237;if(_0x19e62d[_0xc26336(0x1a4)][_0xc26336(0x18e)]===_0xc26336(0x164)){const _0xdf8fe6=_0x19e62d[_0xc26336(0x194)]['styleMapHash']?_0x19e62d['properties'][_0xc26336(0x1d6)][_0xc26336(0x1cf)]:_0xc26336(0x17f);console[_0xc26336(0x187)](_0xc26336(0x16e),_0xdf8fe6);const _0x1b377a=_0xdf8fe6['split']('-')[0x2];console[_0xc26336(0x187)](_0xc26336(0x1bd),_0x1b377a),_0x19e62d[_0xc26336(0x194)]['fill']='#'+_0x1b377a||'white',_0x19e62d[_0xc26336(0x194)][_0xc26336(0x1c6)]=0xc,_0x19e62d[_0xc26336(0x194)][_0xc26336(0x185)]=_0xc26336(0x165);_0x19e62d[_0xc26336(0x194)][_0xc26336(0x172)]['includes']('MARTA\x20Station')&&(_0x19e62d[_0xc26336(0x194)][_0xc26336(0x185)]=_0xc26336(0x1da));_0x19e62d[_0xc26336(0x194)][_0xc26336(0x172)][_0xc26336(0x16d)](_0xc26336(0x167))&&(_0x19e62d['properties'][_0xc26336(0x185)]=_0xc26336(0x1d9));console[_0xc26336(0x187)](_0xc26336(0x1aa),_0x19e62d[_0xc26336(0x194)]);if(_0x19e62d['properties'][_0xc26336(0x1a1)]&&_0x19e62d[_0xc26336(0x194)][_0xc26336(0x1a1)][_0xc26336(0x16d)](_0xc26336(0x1bb))){const _0x2e8d1f=_0x19e62d[_0xc26336(0x194)]['icon']===_0xc26336(0x175)?_0xc26336(0x17b):'#c500ff';_0x19e62d[_0xc26336(0x194)]['fill']=_0x2e8d1f,_0x19e62d['properties'][_0xc26336(0x18d)]=!![],_0x19e62d[_0xc26336(0x194)]['size']=0x5;}}}),map['getSource'](_0x452237(0x1a4))['setData']({'type':_0x452237(0x17a),'features':_0x5046d5}),appData[_0x452237(0x15e)]=_0x5046d5;}),map['addSource'](_0x1d7cf1(0x1a4),{'type':_0x1d7cf1(0x162),'data':{'type':_0x1d7cf1(0x17a),'features':[]}}),map[_0x1d7cf1(0x1a6)]({'id':_0x1d7cf1(0x170),'type':_0x1d7cf1(0x1be),'source':'geometry','paint':{'fill-color':[_0x1d7cf1(0x173),'fill'],'fill-opacity':0.5},'filter':['==','$type',_0x1d7cf1(0x181)]}),map[_0x1d7cf1(0x1a6)]({'id':'polygons-hovered','type':_0x1d7cf1(0x19d),'source':'geometry','paint':{'line-color':'white','line-width':0x4}}),map[_0x1d7cf1(0x1a6)]({'id':_0x1d7cf1(0x1b8),'type':_0x1d7cf1(0x19d),'source':_0x1d7cf1(0x1a4),'paint':{'line-color':'white','line-width':['+',[_0x1d7cf1(0x173),_0x1d7cf1(0x1ba)],0x8]}}),map['addLayer']({'id':_0x1d7cf1(0x195),'type':_0x1d7cf1(0x19d),'source':_0x1d7cf1(0x1a4),'paint':{'line-color':[_0x1d7cf1(0x173),_0x1d7cf1(0x158)],'line-width':['get',_0x1d7cf1(0x1ba)]},'filter':['==',_0x1d7cf1(0x1c4),_0x1d7cf1(0x1c0)]}),map[_0x1d7cf1(0x1a6)]({'id':'points','type':_0x1d7cf1(0x17d),'source':_0x1d7cf1(0x1a4),'paint':{'circle-color':['get','fill'],'circle-radius':[_0x1d7cf1(0x173),_0x1d7cf1(0x1c6)],'circle-stroke-width':0x1,'circle-stroke-color':_0x1d7cf1(0x17f)},'filter':['==',_0x1d7cf1(0x1c4),'Point']}),map[_0x1d7cf1(0x1a5)](_0x1d7cf1(0x18c),(_0x1f407a,_0x56818b)=>{const _0x289594=_0x1d7cf1;map[_0x289594(0x1b5)]('mstation',_0x56818b);}),map[_0x1d7cf1(0x1a5)](_0x1d7cf1(0x1b6),(_0x31e4c6,_0x5342f3)=>{const _0x250331=_0x1d7cf1;map['addImage'](_0x250331(0x1d9),_0x5342f3);}),map[_0x1d7cf1(0x1a5)]('images/tram-svgrepo-com.png',(_0x47a69d,_0x484740)=>{const _0x30f440=_0x1d7cf1;if(_0x47a69d)throw _0x47a69d;map[_0x30f440(0x1b5)](_0x30f440(0x165),_0x484740),map['addLayer']({'id':_0x30f440(0x1d3),'type':_0x30f440(0x17d),'source':_0x30f440(0x1a4),'paint':{'circle-color':_0x30f440(0x16a),'circle-radius':['+',[_0x30f440(0x173),_0x30f440(0x1c6)],0x3]},'filter':['==',_0x30f440(0x1c4),'Point']}),map[_0x30f440(0x191)]('points-hovered',['==',_0x30f440(0x172),'']),map[_0x30f440(0x1a6)]({'id':_0x30f440(0x198),'type':_0x30f440(0x1a8),'source':_0x30f440(0x1a4),'layout':{'icon-image':[_0x30f440(0x173),'iconName'],'icon-size':0.8,'icon-allow-overlap':!![]},'filter':[_0x30f440(0x1ac),['==',_0x30f440(0x1c4),'Point'],[_0x30f440(0x19f),_0x30f440(0x18d)]]});}),map[_0x1d7cf1(0x191)]('polygons-hovered',['==',_0x1d7cf1(0x172),'']),map[_0x1d7cf1(0x191)](_0x1d7cf1(0x1b8),['==',_0x1d7cf1(0x172),'']);function _0x4617a7(_0x4d66b7){const _0x1e7bde=_0x1d7cf1;map[_0x1e7bde(0x1b9)]()['style'][_0x1e7bde(0x163)]=_0x1e7bde(0x15d);}function _0x35a2a4(){const _0x341838=_0x1d7cf1;map[_0x341838(0x1b9)]()[_0x341838(0x180)][_0x341838(0x163)]='',map[_0x341838(0x191)]('polygons-hovered',['==','name','']),map[_0x341838(0x191)]('lines-hovered',['==',_0x341838(0x172),'']),map['setFilter'](_0x341838(0x1d3),['==',_0x341838(0x172),'']);}map['on'](_0x1d7cf1(0x1af),_0x1d7cf1(0x170),_0x4617a7),map['on']('mouseleave',_0x1d7cf1(0x170),_0x35a2a4),map['on'](_0x1d7cf1(0x1af),'points',_0x4617a7),map['on'](_0x1d7cf1(0x1c8),_0x1d7cf1(0x188),_0x35a2a4),map['on']('mouseenter',_0x1d7cf1(0x195),_0x4617a7),map['on']('mouseleave',_0x1d7cf1(0x195),_0x35a2a4),map['on'](_0x1d7cf1(0x1b0),_0x1d7cf1(0x170),_0x49075d=>{const _0x2e4ded=_0x1d7cf1,_0x2b57a1=_0x49075d[_0x2e4ded(0x15e)][0x0][_0x2e4ded(0x194)];map[_0x2e4ded(0x191)](_0x2e4ded(0x1a3),['==',_0x2e4ded(0x172),_0x49075d[_0x2e4ded(0x15e)][0x0][_0x2e4ded(0x194)]['name']]);}),map['on'](_0x1d7cf1(0x1b0),_0x1d7cf1(0x195),_0x4aae23=>{const _0x3dfe59=_0x1d7cf1,_0x5c3b1b=_0x4aae23[_0x3dfe59(0x15e)][0x0][_0x3dfe59(0x194)];map[_0x3dfe59(0x191)](_0x3dfe59(0x1b8),['==','name',_0x4aae23[_0x3dfe59(0x15e)][0x0][_0x3dfe59(0x194)][_0x3dfe59(0x172)]]);}),map['on'](_0x1d7cf1(0x1b0),_0x1d7cf1(0x188),_0x104211=>{const _0x2cb037=_0x1d7cf1,_0x251e5a=_0x104211['features'][0x0]['properties'];map[_0x2cb037(0x191)](_0x2cb037(0x1d3),['==',_0x2cb037(0x172),_0x104211[_0x2cb037(0x15e)][0x0][_0x2cb037(0x194)][_0x2cb037(0x172)]]);});function _0x30e345(_0xfd8aaf){const _0x455868=_0x1d7cf1,_0x360cdb=map[_0x455868(0x177)](_0xfd8aaf['point']),_0x485e3a=_0x360cdb[_0x455868(0x171)]((_0x1dc66f,_0x2f21a2,_0x5c7551)=>_0x5c7551[_0x455868(0x182)](_0x5d87c0=>_0x5d87c0[_0x455868(0x194)]['name']===_0x1dc66f[_0x455868(0x194)]['name'])===_0x2f21a2);console[_0x455868(0x187)](_0x455868(0x16c),_0x485e3a);const _0x225bc9=_0x485e3a['filter'](_0x20a2e9=>_0x20a2e9[_0x455868(0x194)]['name'])[_0x455868(0x193)](_0x34d402=>{const _0x526677=_0x455868;return descr=_0x34d402['properties'][_0x526677(0x1bc)]?_0x34d402[_0x526677(0x194)]['description']:'','<h3>'+_0x34d402[_0x526677(0x194)]['name']+'</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+descr;})[0x0],_0x1fc6b7=new mapboxgl[(_0x455868(0x1d0))]()[_0x455868(0x186)](_0xfd8aaf[_0x455868(0x1cc)])[_0x455868(0x17c)](_0x225bc9)[_0x455868(0x1a0)](map);}map['on'](_0x1d7cf1(0x160),_0x1d7cf1(0x170),_0x30e345),map['on']('click',_0x1d7cf1(0x195),_0x30e345),map['on'](_0x1d7cf1(0x160),_0x1d7cf1(0x188),_0x30e345);});function updateLayersVisibility(){const _0x14e089=_0x50d51b,_0x7024a3=appData['selectedLayers'][_0x14e089(0x171)](_0x57105c=>_0x57105c[_0x14e089(0x166)])[_0x14e089(0x193)](_0x2e3b81=>_0x2e3b81[_0x14e089(0x1d5)]);console['log'](_0x14e089(0x1d1),_0x7024a3);const _0x4a499d=appData[_0x14e089(0x15e)][_0x14e089(0x171)](_0x13e53e=>_0x7024a3[_0x14e089(0x16d)](_0x13e53e['properties'][_0x14e089(0x1c5)]));map['getSource'](_0x14e089(0x1a4))[_0x14e089(0x1c7)]({'type':_0x14e089(0x17a),'features':_0x4a499d});}function buildSwitcher({labelText:_0x4d80f8,action:_0x379107,colorCircle:colorCircle=![],checked:checked=!![]}){const _0x100e27=_0x50d51b,_0xfd7d89=document[_0x100e27(0x1cd)]('div');_0xfd7d89[_0x100e27(0x176)]=_0x100e27(0x18b),_0xfd7d89['style'][_0x100e27(0x163)]=_0x100e27(0x15d);const _0x116f2d=document[_0x100e27(0x1cd)](_0x100e27(0x19b));_0x116f2d[_0x100e27(0x176)]=_0x100e27(0x17e);const _0x199d7c=document['createElement'](_0x100e27(0x1cb));_0x199d7c[_0x100e27(0x18e)]=_0x100e27(0x15c),_0x199d7c[_0x100e27(0x15b)]=checked,_0xfd7d89['addEventListener'](_0x100e27(0x160),()=>{const _0x536b80=_0x100e27;_0x199d7c[_0x536b80(0x15b)]=!_0x199d7c[_0x536b80(0x15b)],typeof _0x379107===_0x536b80(0x1dc)&&_0x379107(_0x199d7c[_0x536b80(0x15b)]);});function _0x1d8bae(){const _0x747feb=_0x100e27;_0x199d7c[_0x747feb(0x15b)]=!![],typeof _0x379107===_0x747feb(0x1dc)&&_0x379107(_0x199d7c[_0x747feb(0x15b)]);}function _0x29cea3(){const _0x40d9f8=_0x100e27;_0x199d7c[_0x40d9f8(0x15b)]=![],typeof _0x379107===_0x40d9f8(0x1dc)&&_0x379107(_0x199d7c[_0x40d9f8(0x15b)]);}const _0x199410=document[_0x100e27(0x1cd)](_0x100e27(0x1a9));_0x199410[_0x100e27(0x180)][_0x100e27(0x18f)]=_0x100e27(0x1d4),_0x199410['style']['height']='10px',_0x199410[_0x100e27(0x180)][_0x100e27(0x1b3)]=colorCircle,_0x199410[_0x100e27(0x180)][_0x100e27(0x1d8)]=_0x100e27(0x1d4),_0x199410[_0x100e27(0x180)]['border']='1px\x20solid\x20#2196f3';const _0xaf7dc2=document[_0x100e27(0x1cd)](_0x100e27(0x19a));_0xaf7dc2[_0x100e27(0x176)]=_0x100e27(0x19c);const _0x1d4bc4=document[_0x100e27(0x1cd)]('div');_0x1d4bc4[_0x100e27(0x1b7)]=_0x4d80f8,_0x116f2d[_0x100e27(0x1d7)](_0x199d7c),_0x116f2d[_0x100e27(0x1d7)](_0xaf7dc2),_0xfd7d89['appendChild'](_0x116f2d);if(colorCircle)_0xfd7d89['appendChild'](_0x199410);return _0xfd7d89[_0x100e27(0x1d7)](_0x1d4bc4),{'nodeElement':_0xfd7d89,'turnOn':_0x1d8bae,'turnOff':_0x29cea3};}
+        const appData = {
+            features: null,
+            selectedLayers: []
+        }
+        const layersDiv = document.getElementById('layers')
+        mapboxgl.accessToken = 'pk.eyJ1IjoiY29qbyIsImEiOiJjbTFndHU1ZjMwN3owMmlxMXRlejlrMm9oIn0.ezRZvJl1XpcOF1Eqhc2iCg';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+            style: 'mapbox://styles/mapbox/light-v11',
+            center: { lng: -84.41437509399084, lat: 33.78968701476805 },
+            zoom: 9,
+        });
+
+        //add search bar
+        map.addControl(new MapboxGeocoder({
+            accessToken: mapboxgl.accessToken,
+            mapboxgl: mapboxgl
+        }));
+
+        map.on('load', () => {
+
+            const files = [
+                // 'data/BeltLine Access Points (Public Open and Interim).kml',
+                // 'data/BeltLine Trails.kml',
+                // 'data/1-Development Map.kmz',
+                'data/My Places.kml',
+                'data/ATL StreetCar.kmz',
+                'data/Future LRTBRT (Beltline Rail, Clifton Corr).kmz',
+                'data/MARTA Heavy Rail.kmz'
+            ]
+
+            Promise.all(files.map(file => fetch(file)))
+                .then(responses => Promise.all(responses.map(response => response.blob())))
+                .then(blobs => Promise.all(blobs.map(blob => {
+                    console.log('blob', blob);
+
+                    if (blob.type === "application/vnd.google-earth.kmz") {
+                        const zip = new JSZip();
+                        return zip.loadAsync(blob).then(zip => {
+                            return zip.file("doc.kml").async("string").then(data => {
+                                const kml = new DOMParser().parseFromString(data, "text/xml");
+                                return toGeoJSON.kml(kml);
+                            });
+                        });
+                    } else {
+                        return blob.text().then(data => {
+                            const kml = new DOMParser().parseFromString(data, "text/xml");
+                            return toGeoJSON.kml(kml);
+                        });
+                    }
+                })))
+                .then(geojsons => {
+
+                    console.log('geojsons', geojsons);
+
+                    const features = geojsons.reduce((acc, geojson) => {
+                        return acc.concat(geojson.features);
+                    }, []);
+
+                    const layerNames = [...new Set(features.map(f => f.properties.layerName))]
+                    console.log('layerNames', layerNames);
+
+                    layerNames.forEach(layer => {
+                        appData.selectedLayers.push({
+                            layer,
+                            visibility: true
+                        })
+
+                        const property = buildSwitcher({
+                            labelText: layer,
+                            action: checked => {
+                                const display = checked ? "visible" : "none"
+                                const selLayer = appData.selectedLayers.find(l => l.layer === layer)
+                                selLayer.visibility = checked
+
+                                updateLayersVisibility()
+                            },
+                            checked: true
+                        })
+                        layersDiv.appendChild(property.nodeElement);
+                    })
+
+                    console.log('features', features);
+
+                    features.forEach(f => {
+                        if (f.geometry.type === "Point") {
+
+                            const styleColor = f.properties.styleMapHash ? f.properties.styleMapHash.normal : "white"
+                            console.log('styleColor', styleColor);
+                            const _color = styleColor.split("-")[2]
+                            console.log('_color', _color);
+
+                            f.properties.fill = "#" + _color || "white"
+                            f.properties.size = 12
+                            f.properties.iconName = 'tram'
+
+                            if (f.properties.name.includes("MARTA Station")) {
+                                f.properties.iconName = 'mstation'
+                            }
+                            if (f.properties.name.includes("Marta Stop")) {
+                                f.properties.iconName = 'mstop'
+                            }
+
+                            console.log('f.properties', f.properties);
+
+                            if (f.properties.icon && f.properties.icon.includes("Layer0_Symbol_")) {
+                                const color = f.properties.icon === 'Layer0_Symbol_f34c9f00_0.png' ? '#42c000' : '#c500ff'
+                                f.properties.fill = color
+                                f.properties.noicon = true
+                                f.properties.size = 5
+                            }
+                        }
+                    })
+
+
+                    map.getSource('geometry').setData({
+                        'type': 'FeatureCollection',
+                        'features': features
+                    });
+
+                    appData.features = features
+                });
+
+
+            // Create GeoJSON data for a building with 10 floors
+            map.addSource('geometry', {
+                'type': 'geojson',
+                'data': {
+                    'type': 'FeatureCollection',
+                    'features': []
+                }
+            });
+
+            map.addLayer({
+                id: 'polygons',
+                type: 'fill',
+                source: 'geometry',
+                paint: {
+                    'fill-color': ['get', 'fill'],
+                    'fill-opacity': 0.5
+                },
+                filter: ['==', '$type', 'Polygon']
+            });
+
+            map.addLayer({
+                id: 'polygons-hovered',
+                type: 'line',
+                source: 'geometry',
+                paint: {
+                    'line-color': "white",
+                    'line-width': 4
+                },
+
+            });
+
+            map.addLayer({
+                id: 'lines-hovered',
+                type: 'line',
+                source: 'geometry',
+                paint: {
+                    'line-color': "white",
+                    'line-width': ['+', ['get', 'stroke-width'], 8]
+                },
+            })
+
+            map.addLayer({
+                id: 'lines',
+                type: 'line',
+                source: 'geometry',
+                paint: {
+                    'line-color': ['get', 'stroke'],
+                    'line-width': ['get', 'stroke-width']
+                },
+                filter: ['==', '$type', 'LineString']
+            })
+
+
+            map.addLayer({
+                id: 'points',
+                type: 'circle',
+                source: 'geometry',
+                paint: {
+                    'circle-color': ['get', 'fill'],
+                    'circle-radius': ['get', 'size'],
+                    'circle-stroke-width': 1,
+                    'circle-stroke-color': "white"
+                },
+                filter: ['==', '$type', 'Point']
+            });
+
+
+            map.loadImage('images/marta-station.png', (error, image) => {
+                map.addImage('mstation', image);
+            })
+            map.loadImage('images/marta-stop.png', (error, image) => {
+                map.addImage('mstop', image);
+            })
+
+            map.loadImage(
+                'images/tram-svgrepo-com.png',
+                (error, image) => {
+                    if (error) throw error;
+
+                    // Add the image to the map style.
+                    map.addImage('tram', image);
+
+                    map.addLayer({
+                        id: 'points-hovered',
+                        type: 'circle',
+                        source: 'geometry',
+                        paint: {
+                            'circle-color': "red",
+                            'circle-radius': ['+', ['get', 'size'], 3]
+                        },
+                        filter: ['==', '$type', 'Point']
+                    });
+                    map.setFilter('points-hovered', ['==', 'name', '']);
+
+                    map.addLayer({
+                        id: 'tram-icon',
+                        type: 'symbol',
+                        source: 'geometry',
+                        layout: {
+                            'icon-image': ['get', 'iconName'],
+                            'icon-size': 0.8,
+                            'icon-allow-overlap': true
+                        },
+                        filter: ['all',
+                            ['==', '$type', 'Point'],
+                            ['!has', 'noicon']
+                        ]
+                    });
+
+                }
+            );
+
+            map.setFilter('polygons-hovered', ['==', 'name', '']);
+            map.setFilter('lines-hovered', ['==', 'name', '']);
+
+            function pointerCursor(e) {
+                map.getCanvas().style.cursor = 'pointer';
+            }
+
+            function defaultCursor() {
+                map.getCanvas().style.cursor = '';
+                map.setFilter('polygons-hovered', ['==', 'name', '']);
+                map.setFilter('lines-hovered', ['==', 'name', '']);
+                map.setFilter('points-hovered', ['==', 'name', '']);
+            }
+
+            map.on('mouseenter', 'polygons', pointerCursor);
+            map.on('mouseleave', 'polygons', defaultCursor);
+            map.on('mouseenter', 'points', pointerCursor);
+            map.on('mouseleave', 'points', defaultCursor);
+            map.on('mouseenter', 'lines', pointerCursor);
+            map.on('mouseleave', 'lines', defaultCursor);
+
+
+            map.on('mousemove', 'polygons', (e) => {
+                //add hover effect over polygon 
+                const props = e.features[0].properties
+                map.setFilter('polygons-hovered', ['==', 'name', e.features[0].properties.name]);
+            });
+            map.on('mousemove', 'lines', (e) => {
+                //add hover effect over line 
+                const props = e.features[0].properties
+                map.setFilter('lines-hovered', ['==', 'name', e.features[0].properties.name]);
+            });
+            map.on('mousemove', 'points', (e) => {
+                //add hover effect over point 
+                const props = e.features[0].properties
+                map.setFilter('points-hovered', ['==', 'name', e.features[0].properties.name]);
+            });
+
+            function showInfo(e) {
+                const features = map.queryRenderedFeatures(e.point);
+                //remove douplicates from features
+                const uniqueFeatures = features.filter((v, i, a) => a.findIndex(t => (t.properties.name === v.properties.name)) === i)
+                console.log('uniqueFeatures', uniqueFeatures);
+
+                const html = uniqueFeatures
+                    .filter(feature => feature.properties.name)
+                    .map(feature => {
+                        descr = feature.properties.description ? feature.properties.description : ""
+                        return `<h3>${feature.properties.name}</h3>
+                                ${descr}`
+                    })[0]
+                // .join('');
+
+                const popup = new mapboxgl.Popup()
+                    .setLngLat(e.lngLat)
+                    .setHTML(html)
+                    .addTo(map);
+            }
+
+            //create a popup with all properties for all layers on click
+
+            map.on('click', 'polygons', showInfo);
+            map.on('click', 'lines', showInfo);
+            map.on('click', 'points', showInfo);
+
+        });
+
+        function updateLayersVisibility() {
+
+
+            const visibleLayers = appData.selectedLayers.filter(l => l.visibility).map(l => l.layer)
+            console.log('visibleLayers', visibleLayers);
+
+            const features = appData.features.filter(f => visibleLayers.includes(f.properties.layerName))
+
+            map.getSource('geometry').setData({
+                'type': 'FeatureCollection',
+                'features': features
+            });
+
+
+        }
+
+
+        function buildSwitcher({ labelText, action, colorCircle = false, checked = true }) {
+
+            const div = document.createElement("div")
+            div.className = "switcher-div"
+            div.style.cursor = "pointer"
+
+            const label = document.createElement("label")
+            label.className = "switch"
+
+            const checkbox = document.createElement("input")
+            checkbox.type = "checkbox"
+            checkbox.checked = checked
+
+            // checkbox.addEventListener("input", () => {
+            //     if (typeof action === "function") {
+            //         action(checkbox.checked)
+            //     }
+            // })
+
+            div.addEventListener("click", () => {
+                checkbox.checked = !checkbox.checked
+                if (typeof action === "function") {
+                    action(checkbox.checked)
+                }
+            })
+
+            function turnOn() {
+                checkbox.checked = true
+                if (typeof action === "function") {
+                    action(checkbox.checked)
+                }
+            }
+
+            function turnOff() {
+                checkbox.checked = false
+                if (typeof action === "function") {
+                    action(checkbox.checked)
+                }
+            }
+
+            const color = document.createElement("div")
+            color.style.width = "10px"
+            color.style.height = "10px"
+            color.style.backgroundColor = colorCircle
+            color.style.borderRadius = "10px"
+            color.style.border = "1px solid #2196f3"
+
+            const span = document.createElement("span")
+            span.className = "slider round"
+
+            const text = document.createElement("div")
+            text.innerText = labelText
+
+            label.appendChild(checkbox)
+            label.appendChild(span)
+
+            div.appendChild(label)
+            if (colorCircle) div.appendChild(color)
+            div.appendChild(text)
+
+            return { nodeElement: div, turnOn, turnOff }
+        }
     </script>
 
 </body>
