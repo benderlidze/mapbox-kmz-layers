@@ -368,6 +368,7 @@
                                 })
                             }
                             updateLayersVisibility()
+
                         },
                         checked: true,
                     })
@@ -411,18 +412,19 @@
                                 const display = checked ? "visible" : "none"
                                 const selLayer = appData.selectedLayers.find(l => l.layer === layer)
                                 selLayer.visibility = checked
-
                                 updateLayersVisibility()
                             },
                             checked: true
                         })
 
-                        if (leayerGroupNames.includes(layer)) {
-                            subGroup.appendChild(property.nodeElement);
-                            groupedToggles.push(property)
-                        } else {
-                            layersDiv.appendChild(property.nodeElement);
-                        }
+                        // if (leayerGroupNames.includes(layer)) {
+                        //     subGroup.appendChild(property.nodeElement);
+                        //     groupedToggles.push(property)
+                        // } else {
+                        //     layersDiv.appendChild(property.nodeElement);
+                        // }
+                        subGroup.appendChild(property.nodeElement);
+                        groupedToggles.push(property)
                     })
 
 
@@ -649,21 +651,23 @@
 
         });
 
-        function updateLayersVisibility() {
+        const debounce = (func, delay) => {
+            let timeoutId;
+            return (...args) => {
+                clearTimeout(timeoutId);
+                timeoutId = setTimeout(() => func.apply(null, args), delay);
+            };
+        };
 
-
-            const visibleLayers = appData.selectedLayers.filter(l => l.visibility).map(l => l.layer)
-            console.log('visibleLayers', visibleLayers);
-
-            const features = appData.features.filter(f => visibleLayers.includes(f.properties.layerName))
+        const updateLayersVisibility = debounce(() => {
+            const visibleLayers = appData.selectedLayers.filter(l => l.visibility).map(l => l.layer);
+            const features = appData.features.filter(f => visibleLayers.includes(f.properties.layerName));
 
             map.getSource('geometry').setData({
                 'type': 'FeatureCollection',
                 'features': features
             });
-
-
-        }
+        }, 300); // 300ms delay, adjust as needed
 
 
         function buildSwitcher({ labelText, action, colorCircle = false, checked = true }) {
