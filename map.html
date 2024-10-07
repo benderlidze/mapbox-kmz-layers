@@ -212,6 +212,26 @@
                         layersDiv.appendChild(property.nodeElement);
                     })
 
+
+                    console.log('features', features);
+
+                    features.forEach(f => {
+
+                        if (f.geometry.type === "Point") {
+                            f.properties.fill = "white"
+                            if (f.properties.icon && f.properties.icon.includes("Layer0_Symbol_")) {
+                                // const filename = f.properties.icon
+                                // const color = filename.split('_')[2];
+                                // f.properties.fill = '#' + color.slice(0, -2)
+
+                                const color = f.properties.icon === 'Layer0_Symbol_f34c9f00_0.png' ? '#42c000' : '#c500ff'
+                                f.properties.fill = color
+                            }
+                        }
+
+                    })
+
+
                     map.getSource('geometry').setData({
                         'type': 'FeatureCollection',
                         'features': features
@@ -279,11 +299,10 @@
                 type: 'circle',
                 source: 'geometry',
                 paint: {
-                    'circle-color': "white",
+                    'circle-color': ['get', 'fill'],
                     'circle-radius': 10,
                     'circle-stroke-width': 1,
                     'circle-stroke-color': "gray"
-
                 },
                 filter: ['==', '$type', 'Point']
             });
@@ -296,7 +315,6 @@
 
                     // Add the image to the map style.
                     map.addImage('tram', image);
-
 
                     map.addLayer({
                         id: 'points-hovered',
@@ -327,7 +345,6 @@
 
             map.setFilter('polygons-hovered', ['==', 'name', '']);
             map.setFilter('lines-hovered', ['==', 'name', '']);
-
 
             function pointerCursor(e) {
                 map.getCanvas().style.cursor = 'pointer';
@@ -377,7 +394,7 @@
                         return `<h3>${feature.properties.name}</h3>
                                 ${descr}`
                     })[0]
-                    // .join('');
+                // .join('');
 
                 const popup = new mapboxgl.Popup()
                     .setLngLat(e.lngLat)
