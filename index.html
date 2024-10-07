@@ -21,35 +21,24 @@
         body {
             margin: 0;
             padding: 0;
+            font-family: Montserrat, sans-serif, Helvetica, Arial;
         }
 
         #map {
-            position: absolute;
-            top: 0;
-            bottom: 0;
             width: 100%;
+            height: 100%;
         }
 
         .mapboxgl-popup {
             max-width: 400px !important;
         }
 
-        #layers {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            background: white;
-            padding: 10px;
-            border-radius: 5px;
-            z-index: 100;
-        }
-
-
         /* SWITCHER */
         .switcher-div {
             display: flex;
             align-items: center;
             margin: 5px;
+            width: fit-content;
         }
 
         .switcher-div>div {
@@ -133,18 +122,100 @@
         }
 
         /* SWITCHER END */
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        #header {
+            /* background: #2196f3; */
+            /* color: white; */
+            padding: 10px;
+            text-align: center;
+            font-weight: 900 !important;
+            font-family: inherit;
+            font-size: 44px;
+        }
+
+        #toggle {
+            position: absolute;
+            top: 100px;
+            left: 10px;
+            z-index: 1;
+            background-color: #2196f3;
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+
+        #toggle:hover {
+            background-color: #0d47a1;
+        }
+
+        #layers {
+            position: absolute;
+            top: 100px;
+            left: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 100;
+            border: 2px solid #2196f3;
+            transition: 500ms;
+        }
+
+        .close-button {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            cursor: pointer;
+            background: red;
+            color: white;
+            border-radius: 100%;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .close-button:after {
+            display: inline-block;
+            content: "\00d7";
+            /* This will render the 'X' */
+        }
+
+        .close-button:hover {
+            background: darkred;
+        }
     </style>
 </head>
 
 <body>
-    <div id="map"></div>
+    <div id="container">
+        <div id="header">Atlanta Development Map</div>
+        <div id="map"></div>
+    </div>
+
+    <div id="toggle">Data layers</div>
     <div id="layers"></div>
+
     <script>
+        const layersDiv = document.getElementById('layers')
+        layersDiv.style.left = -1000 + "px"
+
+        const toggleLayersButton = document.getElementById('toggle')
+        toggleLayersButton.addEventListener("click", () => {
+            layersDiv.style.left = 10 + "px"
+        })
+
         const appData = {
             features: null,
             selectedLayers: []
         }
-        const layersDiv = document.getElementById('layers')
         mapboxgl.accessToken = 'pk.eyJ1IjoiY29qbyIsImEiOiJjbTFndHU1ZjMwN3owMmlxMXRlejlrMm9oIn0.ezRZvJl1XpcOF1Eqhc2iCg';
         const map = new mapboxgl.Map({
             container: 'map',
@@ -203,6 +274,13 @@
                     const layerNames = [...new Set(features.map(f => f.properties.layerName))]
                     console.log('layerNames', layerNames);
 
+                    const closeButton = document.createElement("div")
+                    closeButton.className = "close-button"
+                    closeButton.addEventListener("click", () => {
+                        layersDiv.style.left = -1000 + "px"
+                    })
+                    layersDiv.appendChild(closeButton);
+
                     layerNames.forEach(layer => {
                         appData.selectedLayers.push({
                             layer,
@@ -222,6 +300,9 @@
                         })
                         layersDiv.appendChild(property.nodeElement);
                     })
+
+
+
 
                     console.log('features', features);
 
