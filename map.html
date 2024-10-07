@@ -227,12 +227,30 @@
 
                     features.forEach(f => {
                         if (f.geometry.type === "Point") {
-                            f.properties.fill = "white"
+
+                            const styleColor = f.properties.styleMapHash ? f.properties.styleMapHash.normal : "white"
+                            console.log('styleColor', styleColor);
+                            const _color = styleColor.split("-")[2]
+                            console.log('_color', _color);
+
+                            f.properties.fill = "#" + _color || "white"
+                            f.properties.size = 12
+                            f.properties.iconName = 'tram'
+
+                            if (f.properties.name.includes("MARTA Station")) {
+                                f.properties.iconName = 'mstation'
+                            }
+                            if (f.properties.name.includes("Marta Stop")) {
+                                f.properties.iconName = 'mstop'
+                            }
+
                             console.log('f.properties', f.properties);
+
                             if (f.properties.icon && f.properties.icon.includes("Layer0_Symbol_")) {
                                 const color = f.properties.icon === 'Layer0_Symbol_f34c9f00_0.png' ? '#42c000' : '#c500ff'
                                 f.properties.fill = color
                                 f.properties.noicon = true
+                                f.properties.size = 5
                             }
                         }
                     })
@@ -306,15 +324,23 @@
                 source: 'geometry',
                 paint: {
                     'circle-color': ['get', 'fill'],
-                    'circle-radius': 10,
+                    'circle-radius': ['get', 'size'],
                     'circle-stroke-width': 1,
-                    'circle-stroke-color': "gray"
+                    'circle-stroke-color': "white"
                 },
                 filter: ['==', '$type', 'Point']
             });
 
+
+            map.loadImage('images/marta-station.png', (error, image) => {
+                map.addImage('mstation', image);
+            })
+            map.loadImage('images/marta-stop.png', (error, image) => {
+                map.addImage('mstop', image);
+            })
+
             map.loadImage(
-                'tram.png',
+                'images/tram-svgrepo-com.png',
                 (error, image) => {
                     if (error) throw error;
 
@@ -327,7 +353,7 @@
                         source: 'geometry',
                         paint: {
                             'circle-color': "red",
-                            'circle-radius': 15,
+                            'circle-radius': ['+', ['get', 'size'], 3]
                         },
                         filter: ['==', '$type', 'Point']
                     });
@@ -338,8 +364,8 @@
                         type: 'symbol',
                         source: 'geometry',
                         layout: {
-                            'icon-image': 'tram',
-                            'icon-size': 1,
+                            'icon-image': ['get', 'iconName'],
+                            'icon-size': 0.8,
                             'icon-allow-overlap': true
                         },
                         filter: ['all',
