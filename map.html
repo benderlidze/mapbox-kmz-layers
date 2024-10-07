@@ -11,9 +11,12 @@
     <script src="js/togeojson.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.0/jszip.min.js"></script>
 
-    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.min.js"></script>
-    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.css" type="text/css">
-    
+    <script
+        src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.min.js"></script>
+    <link rel="stylesheet"
+        href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.css"
+        type="text/css">
+
     <style>
         body {
             margin: 0;
@@ -225,13 +228,11 @@
                     features.forEach(f => {
                         if (f.geometry.type === "Point") {
                             f.properties.fill = "white"
+                            console.log('f.properties', f.properties);
                             if (f.properties.icon && f.properties.icon.includes("Layer0_Symbol_")) {
-                                // const filename = f.properties.icon
-                                // const color = filename.split('_')[2];
-                                // f.properties.fill = '#' + color.slice(0, -2)
-
                                 const color = f.properties.icon === 'Layer0_Symbol_f34c9f00_0.png' ? '#42c000' : '#c500ff'
                                 f.properties.fill = color
+                                f.properties.noicon = true
                             }
                         }
                     })
@@ -342,7 +343,10 @@
                             'icon-size': 1,
                             'icon-allow-overlap': true
                         },
-                        filter: ['==', '$type', 'Point']
+                        filter: ['all',
+                            ['==', '$type', 'Point'],
+                            ['!has', 'noicon']
+                        ]
                     });
 
                 }
@@ -412,7 +416,6 @@
             map.on('click', 'polygons', showInfo);
             map.on('click', 'lines', showInfo);
             map.on('click', 'points', showInfo);
-
 
         });
 
