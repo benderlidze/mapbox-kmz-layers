@@ -261,6 +261,14 @@
     <div id="layers"></div>
 
     <script>
+
+        const enabledLayers = [
+            "Beltlilne Subareas",
+            "Atlanta BeltLine Trails",
+            "Atlanta BeltLine Trail Access Locations Public Open and Interim",
+            "MARTA Heavy Rail",
+        ]
+
         const layersDiv = document.getElementById('layers')
         layersDiv.style.left = -1000 + "px"
 
@@ -278,8 +286,8 @@
             container: 'map',
             // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
             style: 'mapbox://styles/mapbox/light-v11',
-            center: { lng: -84.41437509399084, lat: 33.78968701476805 },
-            zoom: 9,
+            center: { lng: -84.39489491038259, lat: 33.78638842087517 },
+            zoom: 12,
         });
 
         //add search bar
@@ -340,15 +348,7 @@
 
                     //-------------GROUP------------
                     const groupedToggles = [];
-                    const leayerGroupNames = [
-                        "Hypothetical Infrastructure Enhancements",
-                        "Prime Parcels for Development",
-                        "Planned Developments",
-                        "Under Construction Developments",
-                        "Recently Completed/Modern Developments",
-                        "Regional Transit Opportunities",
-                        "Neighborhoods",
-                    ]
+
                     const groupLayer = document.createElement("div")
                     groupLayer.className = "group-layer"
 
@@ -368,9 +368,8 @@
                                 })
                             }
                             updateLayersVisibility()
-
                         },
-                        checked: true,
+                        checked: false,
                     })
                     container.appendChild(groupSwitcher.nodeElement)
 
@@ -402,10 +401,14 @@
                     //-------------GROUP------------
 
                     layerNames.forEach(layer => {
+
+                        const visibility = enabledLayers.includes(layer)
+
                         appData.selectedLayers.push({
                             layer,
-                            visibility: true
+                            visibility: visibility
                         })
+
                         const property = buildSwitcher({
                             labelText: layer,
                             action: checked => {
@@ -414,7 +417,7 @@
                                 selLayer.visibility = checked
                                 updateLayersVisibility()
                             },
-                            checked: true
+                            checked: visibility
                         })
 
                         // if (leayerGroupNames.includes(layer)) {
@@ -462,13 +465,21 @@
                         }
                     })
 
-
-                    map.getSource('geometry').setData({
-                        'type': 'FeatureCollection',
-                        'features': features
-                    });
-
                     appData.features = features
+                    // appData.selectedLayers.forEach(l => {
+                    //     if (!enabledLayers.includes(l.layer)) {
+                    //         l.visibility = false
+                    //     }
+                    // })
+                    updateLayersVisibility()
+
+
+                    // map.getSource('geometry').setData({
+                    //     'type': 'FeatureCollection',
+                    //     'features': features
+                    // });
+
+
                 });
 
 
@@ -667,6 +678,7 @@
                 'type': 'FeatureCollection',
                 'features': features
             });
+
         }, 300); // 300ms delay, adjust as needed
 
 
